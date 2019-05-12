@@ -114,20 +114,20 @@ class WSHandler(tornado.websocket.WebSocketHandler):
         decodejson = json.loads(message)
         c=decodejson['eventType']
         v=decodejson['eventValue']
-        print 'eventType:',c
-        if c == 6 :
+        print 'eventType:', c
+        if c == 6:
             print "Running Forward"
-            t_up(100,0)
-        elif c == 4 :
+            t_up(100, 0)
+        elif c == 4:
             print "Running Reverse"
-            t_down(100,0)
-        elif c == 8 :
+            t_down(100, 0)
+        elif c == 8:
             print "Turning Right"
-            t_right(80,0)
-        elif c == 2 :
+            t_right(80, 0)
+        elif c == 2:
             print "Turning Left"
-            t_left(80,0)
-        elif c == 5 :
+            t_left(80, 0)
+        elif c == 5:
             print "Stopped"
             t_stop(0)    # Stop the robot from moving.
         print "Values Updated"
