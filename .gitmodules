@@ -1,3 +1,6 @@
 [submodule "EdgeControlPlatform"]
 	path = EdgeControlPlatform
 	url = git@github.com:JJJJJJJiYun/EdgeControlPlatform.git
+[submodule "arm"]
+	path = arm
+	url = https://github.com/AndysonYs/arm.git
