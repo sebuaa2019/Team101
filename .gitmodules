@@ -1,6 +1,3 @@
-[submodule "software/libs"]
-	path = software/libs
-	url = https://github.com/AndysonYs/AS_6Dof_Arm.git
 [submodule "EdgeControlPlatform"]
 	path = EdgeControlPlatform
 	url = git@github.com:JJJJJJJiYun/EdgeControlPlatform.git
