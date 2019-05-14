@@ -15,10 +15,10 @@
 # If it does not work use:
 # "kill -9 pid"
 # If the error does not go away, try changin the port number '9093' both in the client and server code
-import time,sys,json
+import time,json
 
 # Import the ArmRobot.py file (must be in the same directory as this file!).
-import RPi.GPIO as GPIO  
+import driver
 import threading
 import tornado.ioloop
 import tornado.web
@@ -28,73 +28,8 @@ import tornado.escape
 
 servoMin = 150  # Min pulse length out of 4096  #150
 servoMax = 600  # Max pulse length out of 4096 #600
-
-PWMA = 18
-AIN1 = 22
-AIN2 = 27
-
-PWMB = 23
-BIN1 = 25
-BIN2 = 24
-
-
-def t_up(speed, t_time):
-    L_Motor.ChangeDutyCycle(speed)
-    GPIO.output(AIN2, False)  # AIN2
-    GPIO.output(AIN1, True)   # AIN1
-
-    R_Motor.ChangeDutyCycle(speed)
-    GPIO.output(BIN2, False)  # BIN2
-    GPIO.output(BIN1, True)   # BIN1
-    time.sleep(t_time)
-
-
-def t_stop(t_time):
-    L_Motor.ChangeDutyCycle(0)
-    GPIO.output(AIN2, False)  # AIN2
-    GPIO.output(AIN1, False)  # AIN1
-
-    R_Motor.ChangeDutyCycle(0)
-    GPIO.output(BIN2, False)  # BIN2
-    GPIO.output(BIN1, False)  # BIN1
-    time.sleep(t_time)
-
-
-def t_down(speed, t_time):
-    L_Motor.ChangeDutyCycle(speed)
-    GPIO.output(AIN2, True)   # AIN2
-    GPIO.output(AIN1, False)  # AIN1
-
-    R_Motor.ChangeDutyCycle(speed)
-    GPIO.output(BIN2, True)   # BIN2
-    GPIO.output(BIN1, False)  # BIN1
-    time.sleep(t_time)
-
-
-def t_left(speed, t_time):
-    L_Motor.ChangeDutyCycle(speed)
-    GPIO.output(AIN2, True)   # AIN2
-    GPIO.output(AIN1, False)  # AIN1
-
-    R_Motor.ChangeDutyCycle(speed)
-    GPIO.output(BIN2, False)  # BIN2
-    GPIO.output(BIN1, True)   # BIN1
-    time.sleep(t_time)
-
-
-def t_right(speed, t_time):
-    L_Motor.ChangeDutyCycle(speed)
-    GPIO.output(AIN2, False)  # AIN2
-    GPIO.output(AIN1, True)   # AIN1
-
-    R_Motor.ChangeDutyCycle(speed)
-    GPIO.output(BIN2, True)   # BIN2
-    GPIO.output(BIN1, False)  # BIN1
-    time.sleep(t_time)
-
-
+motor = driver.MotorDriver()
 c = 0
-# Initialize TOrnado to use 'GET' and load index.html
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -117,19 +52,19 @@ class WSHandler(tornado.websocket.WebSocketHandler):
         print 'eventType:', c
         if c == 6:
             print "Running Forward"
-            t_up(100, 0)
+            motor.t_up(100, 0)
         elif c == 4:
             print "Running Reverse"
-            t_down(100, 0)
+            motor.t_down(100, 0)
         elif c == 8:
             print "Turning Right"
-            t_right(80, 0)
+            motor.t_right(80, 0)
         elif c == 2:
             print "Turning Left"
-            t_left(80, 0)
+            motor.t_left(80, 0)
         elif c == 5:
             print "Stopped"
-            t_stop(0)    # Stop the robot from moving.
+            motor.t_stop(0)    # Stop the robot from moving.
         print "Values Updated"
 
     def on_close(self):
@@ -157,28 +92,10 @@ class myThread (threading.Thread):
             time.sleep(.2)              # sleep for 200 ms
 
 
-if __name__ == "__main__":
-    GPIO.setwarnings(False)
-    GPIO.setmode(GPIO.BCM)       # Numbers GPIOs by physical location
-    GPIO.setup(AIN2, GPIO.OUT)
-    GPIO.setup(AIN1, GPIO.OUT)
-    GPIO.setup(PWMA, GPIO.OUT)
-
-    GPIO.setup(BIN1, GPIO.OUT)
-    GPIO.setup(BIN2, GPIO.OUT)
-    GPIO.setup(PWMB, GPIO.OUT)
-
-    L_Motor= GPIO.PWM(PWMA, 100)
-    L_Motor.start(0)
-    R_Motor = GPIO.PWM(PWMB, 100)
-    R_Motor.start(0)
-
-    # pwm.setPWMFreq(50)                        # Set frequency to 60 Hz
+if __name__ == '__main__':
     running = True
     thread1 = myThread(1, "Thread-1", 1)
     thread1.setDaemon(True)
     thread1.start()
     application.listen(9093)          	# starts the websockets connection
     tornado.ioloop.IOLoop.instance().start()
-  
-
