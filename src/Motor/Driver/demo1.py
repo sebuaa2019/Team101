@@ -8,3 +8,4 @@ if __name__ == '__main__':
         motor.t_stop(2)
         motor.t_left(100, 2)
     motor.t_up(100, 2)
+    motor.t_stop(0)

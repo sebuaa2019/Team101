@@ -50,16 +50,16 @@ class WSHandler(tornado.websocket.WebSocketHandler):
         c=decodejson['eventType']
         v=decodejson['eventValue']
         print 'eventType:', c
-        if c == 6:
+        if c == 8:
             print "Running Forward"
             motor.t_up(100, 0)
-        elif c == 4:
+        elif c == 2:
             print "Running Reverse"
             motor.t_down(100, 0)
-        elif c == 8:
+        elif c == 4:
             print "Turning Right"
             motor.t_right(80, 0)
-        elif c == 2:
+        elif c == 6:
             print "Turning Left"
             motor.t_left(80, 0)
         elif c == 5:
