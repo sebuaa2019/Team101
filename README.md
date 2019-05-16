@@ -1,11 +1,12 @@
 # AIC智云农业
 我们希望有专门的小车能够运行于农田，辅以物料网络，使这套系统能自动化地管理农田，实现农业管理精细化。
 
+![核心设计](https://github.com/sebuaa2019/Team101/blob/master/media/%E6%A0%B8%E5%BF%83%E8%AE%BE%E8%AE%A1.png)
 
 ## 项目目录说明
 | 目录 | 描述 |
 | --- | --- |
-| doc | 项目文档目录 |
+| doc | 项目文档目录(文档工作是很丰富了) |
 | src | 项目源代码 |
 | src/Cloud | 云服务系统相关代码 |
 | src/EdgeControlPlatform | 边缘控制平台相关代码 |
