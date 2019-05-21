@@ -1,7 +1,8 @@
 # coding:utf-8
 # IMU算法实现
 import math
-from Sensor import GyroscopeDriver
+import GyroscopeDriver
+import time
 
 Kp = 100  # 比例增益控制加速度计/磁强计的收敛速度
 Ki = 0.002  # 积分增益控制陀螺偏差的收敛速度
@@ -80,10 +81,19 @@ if __name__ == '__main__':
     mpu = GyroscopeDriver.GyroscopeDriver(0x68)
     accel_data = mpu.get_accel_data()
     gyro_data = mpu.get_gyro_data()
-
-    pitch, roll, yaw = Update_IMU(accel_data['x'],
-                                  accel_data['y'],
+    try:
+	while True:
+	    time_begin = time.time()
+    	    pitch, roll, yaw = Update_IMU(accel_data['x'],
+				  accel_data['y'],
                                   accel_data['z'],
-                                  gyro_data['x'],
-                                  gyro_data['y'],
-                                  gyro_data['z'])
+                                  gyro_data['x']*0.01745,
+                                  gyro_data['y']*0.01745,
+                                  gyro_data['z']*0.01745)
+	    time.sleep(2*halfT-(time.time()-time_begin))
+
+    except KeyboardInterrupt:
+    	print "pitch is %.4f" % pitch
+    	print "roll is %.4f" % roll
+    	print "yaw is %.4f" % yaw
+
