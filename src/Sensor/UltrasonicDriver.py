@@ -1,5 +1,5 @@
 # coding=utf-8
-# 导入 GPIO库
+# 型号:HC-SR04
 import RPi.GPIO as GPIO
 import time
 
