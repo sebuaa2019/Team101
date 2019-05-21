@@ -11,6 +11,7 @@
 | src/Cloud | 云服务系统相关代码 |
 | src/EdgeControlPlatform | 边缘控制平台相关代码 |
 | src/Motor | 小车端运动相关代码 |
+| src/Sensor | 小车传感器相关代码 |
 | src/arm | 小车端机械臂控制相关代码 |
 
 ## 已有功能列表
