@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 import time
 
 
-class UltrasonicMotor:
+class UltrasonicDriver:
     def __init__(self, GPIO_TRIGGER=20, GPIO_ECHO=21):
         # 定义 GPIO 引脚
         self.GPIO_TRIGGER = GPIO_TRIGGER
