@@ -4,7 +4,7 @@ import GyroscopeDriver
 import time
 
 frequency = 0.01
-if __name__=="__main__":
+if __name__ == "__main__":
     mpu = GyroscopeDriver.GyroscopeDriver(0x68)
     angle = 0
     try:
