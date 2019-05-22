@@ -1,7 +1,7 @@
-import driver
+from Driver import MotorDriver
 
 if __name__ == '__main__':
-    motor = driver.MotorDriver()
+    motor = MotorDriver.MotorDriver()
     for i in range(2):
         motor.t_up(100, 5)
         motor.t_right(100, 2)

@@ -15,10 +15,11 @@
 # If it does not work use:
 # "kill -9 pid"
 # If the error does not go away, try changin the port number '9093' both in the client and server code
-import time,json
+import time
+import json
 
 # Import the ArmRobot.py file (must be in the same directory as this file!).
-import driver
+from Driver import MotorDriver
 import threading
 import tornado.ioloop
 import tornado.web
@@ -28,7 +29,7 @@ import tornado.escape
 
 servoMin = 150  # Min pulse length out of 4096  #150
 servoMax = 600  # Max pulse length out of 4096 #600
-motor = driver.MotorDriver()
+motor = MotorDriver.MotorDriver()
 c = 0
 
 
