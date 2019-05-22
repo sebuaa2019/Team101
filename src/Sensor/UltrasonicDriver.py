@@ -45,7 +45,7 @@ class UltrasonicDriver:
 
 if __name__ == '__main__':
     try:
-        ultrasonic = UltrasonicMotor()
+        ultrasonic = UltrasonicDriver()
         while True:
             dist = ultrasonic.distance()
             print "Measured Distance = %.2f m" % dist
