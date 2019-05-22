@@ -1,9 +1,3 @@
-[submodule "src\\arm"]
-	path = src\\arm
-	url = https://github.com/AndysonYs/arm.git
-[submodule "src/arm"]
-	path = src/arm
-	url = https://github.com/AndysonYs/arm.git
 [submodule "src/EdgeControlPlatform"]
 	path = src/EdgeControlPlatform
 	url = git@github.com:JJJJJJJiYun/EdgeControlPlatform.git
