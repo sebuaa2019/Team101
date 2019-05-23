@@ -1,5 +1,5 @@
 # coding=utf-8
-# 型号:HC-SR04
+# 型号:HC-SR04超声波雷达
 import RPi.GPIO as GPIO
 import time
 
