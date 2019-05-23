@@ -6,7 +6,7 @@ import time
 
 Kp = 100  # 比例增益控制加速度计/磁强计的收敛速度
 Ki = 0.002  # 积分增益控制陀螺偏差的收敛速度
-halfT = 0.001  # 采样周期的一半
+halfT = 0.001  # 采样周期的一半，即设定更新周期为0.002秒
 
 # 传感器框架相对于辅助框架的四元数(初始化四元数的值)
 q0 = 1
@@ -21,6 +21,7 @@ ezInt = 0
 
 
 def Update_IMU(ax, ay, az, gx, gy, gz):
+    # 需要以2*halfT的周期调用Update_IMU函数，以得到此时的俯仰角和滚转角
     global q0
     global q1
     global q2
