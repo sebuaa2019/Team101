@@ -7,6 +7,7 @@ from Sensor import UltrasonicDriver as UltraS
 from Driver import MotorDriver
 import time
 import math
+import RPi.GPIO as GPIO
 
 
 class Controller:
@@ -84,5 +85,6 @@ if __name__ == '__main__':
         controller.turnLeft(90, 80)
     except KeyboardInterrupt:
         controller.stop()
+        GPIO.cleanup()
 
 
