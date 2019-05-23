@@ -49,8 +49,8 @@ if __name__ == '__main__':
         while True:
             dist = ultrasonic.distance()
             print "Measured Distance = %.2f m" % dist
-            # frequency: 5Hz
-            time.sleep(0.2)
+            # frequency: 1Hz
+            time.sleep(1)
 
         # Reset by pressing CTRL + C
     except KeyboardInterrupt:
