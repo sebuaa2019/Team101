@@ -75,7 +75,6 @@ class Controller:
 
 if __name__ == '__main__':
     controller = Controller(gyro_address=0x68, gpio_trigger=20, gpio_echo=21)
-    plant = [1, 1.5, 2, 2.5, 3]
     try:
         controller.forward(0.5, 100)
         controller.turnRight(90, 80)
