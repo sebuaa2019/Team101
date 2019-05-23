@@ -25,7 +25,7 @@ class Controller:
         while True:
             begin_time = time.time()
             current_loc = self.ultraS.distance()
-            if start_loc-current_loc >= length:
+            if math.fabs(current_loc-start_loc) >= length:
                 self.motor.t_stop(0)
                 break
             passed_time = time.time()-begin_time
@@ -37,7 +37,7 @@ class Controller:
         while True:
             begin_time = time.time()
             current_loc = self.ultraS.distance()
-            if current_loc-start_loc >= length:
+            if math.fabs(current_loc-start_loc) >= length:
                 self.motor.t_stop(0)
                 break
             passed_time = time.time()-begin_time
@@ -77,8 +77,7 @@ if __name__ == '__main__':
     controller = Controller(gyro_address=0x68, gpio_trigger=20, gpio_echo=21)
     plant = [1, 1.5, 2, 2.5, 3]
     try:
-        current = controller.getLoc()
-        controller.forward(plant[0]-current, 100)
+        controller.forward(0.5, 100)
         controller.turnRight(90, 80)
         time.sleep(5)
         controller.turnLeft(90, 80)
