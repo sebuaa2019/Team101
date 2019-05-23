@@ -1,3 +1,4 @@
+# coding=utf-8
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -19,58 +20,59 @@ class Controller:
     def getLoc(self):
         return self.ultraS.distance()
 
-    def forward(self, length, speed):
+    # end_time 表示动作完成后暂停时间，为0表示不暂停
+    def forward(self, length, speed, end_time=0):
         start_loc = self.ultraS.distance()
         self.motor.t_up(speed, 0)
         while True:
             begin_time = time.time()
             current_loc = self.ultraS.distance()
             if math.fabs(current_loc-start_loc) >= length:
-                self.motor.t_stop(0)
+                self.motor.t_stop(end_time)
                 break
             passed_time = time.time()-begin_time
             time.sleep(self.ultraS_freq-passed_time)
 
-    def backward(self, length, speed):
+    def backward(self, length, speed, end_time=0):
         start_loc = self.ultraS.distance()
         self.motor.t_down(speed, 0)
         while True:
             begin_time = time.time()
             current_loc = self.ultraS.distance()
             if math.fabs(current_loc-start_loc) >= length:
-                self.motor.t_stop(0)
+                self.motor.t_stop(end_time)
                 break
             passed_time = time.time()-begin_time
             time.sleep(self.ultraS_freq-passed_time)
 
-    def turnLeft(self, angle, speed):
+    def turnLeft(self, angle, speed, end_time=0):
         current_angle = 0
         self.motor.t_left(speed, 0)
         while True:
             begin_time = time.time()
             if math.fabs(current_angle) >= angle:
-                self.motor.t_stop(0)
+                self.motor.t_stop(end_time)
                 break
             v = self.mpu.get_gyro_data()['z']
             current_angle = current_angle + v * self.mpu_freq
             passed_time = time.time()-begin_time
             time.sleep(self.mpu_freq-passed_time)
 
-    def turnRight(self, angle, speed):
+    def turnRight(self, angle, speed, end_time=0):
         current_angle = 0
         self.motor.t_right(speed, 0)
         while True:
             begin_time = time.time()
             if math.fabs(current_angle) >= angle:
-                self.motor.t_stop(0)
+                self.motor.t_stop(end_time)
                 break
             v = self.mpu.get_gyro_data()['z']
             current_angle = current_angle + v * self.mpu_freq
             passed_time = time.time()-begin_time
             time.sleep(self.mpu_freq-passed_time)
 
-    def stop(self):
-        self.motor.t_stop(0)
+    def stop(self, end_time=0):
+        self.motor.t_stop(end_time)
 
 
 if __name__ == '__main__':
