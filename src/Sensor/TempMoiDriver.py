@@ -1,5 +1,6 @@
 # coding=utf-8
 # 型号:DHT11温湿度传感器
+# 该驱动暂时有问题
 import RPi.GPIO as GPIO
 import time
 
