@@ -6,6 +6,7 @@
 # sudo python setup.py install
 # 或 sudo python3 setup.py install
 import Adafruit_DHT
+import time
 
 sensor_args = { '11': Adafruit_DHT.DHT11,
                 '22': Adafruit_DHT.DHT22,
@@ -20,3 +21,19 @@ def get_hum_temp(pin=4, sensor='11'):
         return humidity, temperature, True
     else:
         return 255, 255, False
+
+if __name__ == '__main__':
+    # setup frequency, should be lower than 0.5Hz
+    frequency = 5
+    try:
+        while True:
+            begin_time = time.time()
+            humidity, temperature, receive = get_hum_temp(pin=4)
+            if receive:
+                print "temperature is: %.1f, humidity is: %.1f%%" % (temperature, humidity)
+            else:
+                print "wrong"
+            cost_time = time.time() - begin_time
+            time.sleep(frequency - cost_time)
+    except KeyboardInterrupt:
+        print "DHT11 End"
