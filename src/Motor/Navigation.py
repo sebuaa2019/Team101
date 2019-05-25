@@ -11,7 +11,24 @@ car_length = 0.19           # 小车雷达到中心的距离
 
 
 def operate():
-    a = raw_input()
+    while True:
+        a = raw_input()
+        if a == 'w':
+            car.t_up(100, 0.2)
+            car.t_stop(0)
+        elif a == 'a':
+            car.t_left(80, 0.2)
+            car.t_stop(0)
+        elif a == 's':
+            car.t_down(100, 0.2)
+            car.t_stop(0)
+        elif a == 'd':
+            car.t_right(80, 0.2)
+            car.t_stop(0)
+        elif a == '':
+            break
+        else:
+            continue
 
 
 if __name__ == '__main__':

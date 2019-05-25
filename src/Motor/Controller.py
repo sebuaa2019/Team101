@@ -75,6 +75,21 @@ class Controller:
     def stop(self, end_time=0):
         self.motor.t_stop(end_time)
 
+    def t_up(self, speed, t_time):
+        self.motor.t_up(speed, t_time)
+
+    def t_down(self, speed, t_time):
+        self.motor.t_down(speed, t_time)
+
+    def t_left(self, speed, t_time):
+        self.motor.t_left(speed, t_time)
+
+    def t_right(self, speed, t_time):
+        self.motor.t_right(speed, t_time)
+
+    def t_stop(self, t_time):
+        self.motor.t_stop(t_time)
+
 
 if __name__ == '__main__':
     controller = Controller(gyro_address=0x68, gpio_trigger=20, gpio_echo=21)
