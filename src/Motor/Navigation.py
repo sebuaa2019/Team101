@@ -43,9 +43,9 @@ if __name__ == '__main__':
         # 将小车姿态设为初始状态
         car.forward(plants[0]-current_location, 100, end_time=0.2)
         if plants_side == 'right':
-            car.turnRight(90, 80, end_time=0.2)
+            car.turnRight(90, 60, end_time=0.2)
         else:
-            car.turnLeft(90, 80, end_time=0.2)
+            car.turnLeft(90, 60, end_time=0.2)
 
         # 开始循环
         while True:
@@ -54,9 +54,9 @@ if __name__ == '__main__':
 
                 # 转回正常行驶
                 if plants_side == 'right':
-                    car.turnLeft(90, 80, end_time=0.2)
+                    car.turnLeft(90, 60, end_time=0.2)
                 else:
-                    car.turnRight(90, 80, end_time=0.2)
+                    car.turnRight(90, 60, end_time=0.2)
 
                 # 前进
                 if direction == 'leave':
@@ -71,9 +71,9 @@ if __name__ == '__main__':
 
                 # 转向植株
                 if plants_side == 'right':
-                    car.turnRight(90, 80, end_time=0.2)
+                    car.turnRight(90, 60, end_time=0.2)
                 else:
-                    car.turnLeft(90, 80, end_time=0.2)
+                    car.turnLeft(90, 60, end_time=0.2)
 
             # 小车改变前进方向，改变状态即可
             if direction == 'leave':

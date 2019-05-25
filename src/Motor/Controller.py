@@ -14,7 +14,7 @@ class Controller:
     def __init__(self, gyro_address=0x68, gpio_trigger=20, gpio_echo=21):
         self.motor = MotorDriver.MotorDriver()
         self.mpu = Gyro.GyroscopeDriver(gyro_address)
-        self.mpu_freq = 0.01
+        self.mpu_freq = 0.05
         self.ultraS = UltraS.UltrasonicDriver(gpio_trigger, gpio_echo)
         self.ultraS_freq = 0.1
 
