@@ -2,11 +2,12 @@
 import Controller
 import RPi.GPIO as GPIO
 
-plants = [1, 1.5, 2, 2.5, 3]    # 植株绝对位置，小车出发一侧为原点
+plants = [0.34, 0.7, 1.02, 1.30, 1.62]    # 植株绝对位置，小车出发一侧为原点
 plants_side = 'right'       # 初始植株在小车左手边或右手边，right 或者 left
-ravine_length = 4
-orientation = 'forward'     # 超声波雷达朝向，forward 或者 backward
+ravine_length = 1.92
+orientation = 'backward'     # 超声波雷达朝向，forward 或者 backward
 direction = 'leave'         # 初始小车朝向，leave 或者 return
+car_length = 0.19           # 小车雷达到中心的距离
 
 
 def operate():
@@ -16,8 +17,10 @@ def operate():
 if __name__ == '__main__':
     car = Controller.Controller(gyro_address=0x68, gpio_trigger=20, gpio_echo=21)
     current_location = car.getLoc()
-    if orientation == 'backward':
-        current_location = ravine_length-current_location
+    if orientation == 'forward':
+        current_location = ravine_length-current_location-car_length
+    else:
+        current_location = current_location+car_length
 
     try:
         # 将小车姿态设为初始状态
