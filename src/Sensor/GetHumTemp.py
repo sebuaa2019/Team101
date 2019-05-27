@@ -22,6 +22,7 @@ def get_hum_temp(pin=4, sensor='11'):
     else:
         return 255, 255, False
 
+
 if __name__ == '__main__':
     # setup frequency, should be lower than 0.5Hz
     frequency = 5
