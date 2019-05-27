@@ -3,7 +3,7 @@ import time
 import unittest
 
 
-class TestDict(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_init(self):
         ultrasonic = UltrasonicDriver.UltrasonicDriver()
 
