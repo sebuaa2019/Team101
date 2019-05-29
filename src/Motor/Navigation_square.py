@@ -142,7 +142,7 @@ def operate():
 def check_state():
     if car_state['battery'] < 1.5:
         logger("WARNING", "MOVING", "\"Low battery! Need charging.\"")
-    if car_state['battery'] < 0.5:
+    if car_state['battery'] < 1.0:
         logger("ERROR", "HANG_UP", "\"Battery runs out.\"")
         raise KeyboardInterrupt
 
