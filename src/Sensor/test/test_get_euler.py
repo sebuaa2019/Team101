@@ -5,6 +5,7 @@ import unittest
 class Test(unittest.TestCase):
     def test_IMU_special(self):
         # -90, +180, +180
+        pitch, roll, yaw = 0, 0, 0
         for i in range(200):
             pitch, roll, yaw = GetEuler.Update_IMU(9.8, 0, 0, 0, 0, 0)
         self.assertEquals([round(pitch), round(roll), round(yaw)], [-90, 180, 180])
