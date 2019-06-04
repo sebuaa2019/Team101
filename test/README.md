@@ -25,7 +25,7 @@
 | BF7 | 外部管理界面 |
 
 ## 子系统ID索引
-| Subsystem_ID| 子系统名称 |
+| Subsystem_ID | 子系统名称 |
 | --- | --- |
 | SS_ID1 | 综合视觉分析 |
 | SS_ID2 | 综合控制系统 | 
@@ -48,5 +48,35 @@
 | SF_SS_ID2_10 | 综合控制系统 | 机械臂上臂移动到指定位置 |
 | SF_SS_ID2_11 | 综合控制系统 | 机械臂钳收缩 |
 | SF_SS_ID2_12 | 综合控制系统 | 机械臂钳舒张 |
-| SF_SS_ID3_1 | 边缘控制平台 |  |
-| SF_SS_ID4_1 | 云服务平台 |  |
+| SF_SS_ID3_1 | 边缘控制平台 |  | 
+| SF_SS_ID4_1 | 云服务平台 |  | 
+
+## 业务功能需求与业务需求回溯关系
+| Business_Requirement_ID | Business_Function_IDs 
+| --- | --- |
+| BF1  | BR2, BR3 |
+| BF2 | BR1, BR3 |
+| BF3 | BR1, BR3, BR5 |
+| BF4 | BR2, BR5 |
+| BF5 | BR4, BR5 |
+| BF6 | BR4, BR5 |
+| BF7 | BR5 |
+
+## 业务功能需求与业务需求回溯关系
+| Business_Function_ID | Business_Requirement_IDs 
+| --- | --- |
+| BF1  | BR2, BR3 |
+| BF2 | BR1, BR3 |
+| BF3 | BR1, BR3, BR5 |
+| BF4 | BR2, BR5 |
+| BF5 | BR4, BR5 |
+| BF6 | BR4, BR5 |
+| BF7 | BR5 |
+
+## 子系统设计与业务功能需求回溯关系
+| Subsystem_ID | Business_Function_IDs 
+| --- | --- |
+
+## 子系统功能与业务功能需求回溯关系
+| Subsystem_Function_ID | Business_Function_IDs 
+| --- | --- |
