@@ -5,7 +5,7 @@
 ![需求设计实现追踪概览图](https://github.com/sebuaa2019/Team101/raw/master/media/TrackTopView.png)
 
 ## 业务需求ID索引
-| Business_Requiremen_ID | 业务需求名称 |
+| Business_Requirement_ID | 业务需求名称 |
 | --- | --- |
 | BR1 | 植株长势监控 |
 | BR2 | 植株灌溉调控 |
