@@ -9,7 +9,7 @@ LEVEL = {WARNING, ERROR, INFO}
 
 |项|说明|
 | --- | --- |
-|YYYY-MM-DD-00:00:00	|系统时间|
+|YYYY-MM-DD-00:00:00|系统时间，格式为年-月-日-24小时制时间|
 |$LEVEL 	| log信息级别，正常时无反馈，异常时反馈WARNING或ERROR，并在接下来反馈INFO|
 |$PATH	| build文件相对于工程文件的路径|
 |INFORMATION	|反馈信息，便于开发人员进行调试 |
@@ -23,7 +23,7 @@ LEVEL = {WARNING, ERROR, INFO, SUCCESS}
 
 |项|说明|
 | --- | --- |
-|YYYY-MM-DD-00:00:00	|系统时间|
+|YYYY-MM-DD-00:00:00|系统时间，格式为年-月-日-24小时制时间|
 |$TESTCASE_NAME	|测试样例名称|
 |$LEVEL 	| log信息级别，正常时反馈SUCCESS，异常时反馈WARNING或ERROR，并在接下来反馈INFO|
 |$PATH	| test文件相对于工程文件的路径|
@@ -44,7 +44,7 @@ WORKING={WEED, IRRIGATE}
 
 |项|说明|
 | --- | --- |
-|YYYY-MM-DD-00:00:00	|系统时间|
+|YYYY-MM-DD-00:00:00|系统时间，格式为年-月-日-24小时制时间|
 |$LEVEL 	| log信息级别，正常时无反馈，异常时反馈WARNING或ERROR，并在接下来反馈INFO|
 |DEVICE_ID|	小车ID|
 |$STATE |小车状态，包含小车位置、电池状态和总里程，供AIC系统使用者查看系统中小车的状态|
