@@ -1,6 +1,5 @@
 # coding=utf-8
-# import Controller
-# import RPi.GPIO as GPIO
+import Controller
 import yaml
 import logging.config
 import os
@@ -82,7 +81,7 @@ def setup_logging(default_path="logging.yaml", default_level=logging.INFO, env_k
         logging.basicConfig(level=default_level)
 
 
-class Controller:
+class SimulateController:
     def __init__(self, gyro_address, gpio_trigger, gpio_echo):
         self.gyro_address = gyro_address
         self.gpio_trigger = gpio_trigger
@@ -108,22 +107,20 @@ class Controller:
 
     def forward(self, length, speed, end_time=0.0):
         length = math.fabs(length)
-        car_state['mileage'] += length
-        car_state['battery'] -= length * 0.005
+        update_state(length=length)
         time.sleep(length/0.1+end_time+random.random())
 
     def backward(self, length, speed, end_time=0.0):
         length = math.fabs(length)
-        car_state['mileage'] += length
-        car_state['battery'] -= length * 0.005
+        update_state(length=length)
         time.sleep(length/0.1+end_time+random.random())
 
     def turnRight(self, angle, speed, end_time=0.0):
-        car_state['battery'] -= angle * 0.00001
+        update_state(angle=angle)
         time.sleep(2+end_time+random.random())
 
     def turnLeft(self, angle, speed, end_time=0.0):
-        car_state['battery'] -= angle * 0.00001
+        update_state(angle=angle)
         time.sleep(2+end_time+random.random())
 
     def stop(self):
@@ -147,10 +144,19 @@ def check_state():
         raise KeyboardInterrupt
 
 
+def update_state(length=0.0, angle=0.0):
+    if angle == 0.0:
+        length = math.fabs(length)
+        car_state['mileage'] += length
+        car_state['battery'] -= length * 0.005
+    else:
+        car_state['battery'] -= angle * 0.00001
+
+
 if __name__ == '__main__':
     setup_logging(default_path="logging.yaml")
     logger("INFO", "SLEEP", "\"Initialize car...\"")
-    car = Controller(gyro_address=0x68, gpio_trigger=20, gpio_echo=21)
+    car = Controller.Controller(gyro_address=0x68, gpio_trigger=20, gpio_echo=21)
     logger("INFO", "WAIT", "\"Initialize successfully.\"")
 
     try:
@@ -187,7 +193,3 @@ if __name__ == '__main__':
 
     except KeyboardInterrupt:
         car.stop()
-        # GPIO.cleanup()
-
-
-
