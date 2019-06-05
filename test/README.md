@@ -76,7 +76,25 @@
 ## 子系统设计与业务功能需求回溯关系
 | Subsystem_ID | Business_Function_IDs 
 | --- | --- |
+| SS_ID1 | BF1, BF2, BF3, BF4, BF5 |
+| SS_ID2 | BF1, BF3, BF4, BF5 |
+| SS_ID3 | BF1, BF5, BF6 |
+| SS_ID4 | BF1, BF6, BF7 |
 
 ## 子系统功能与业务功能需求回溯关系
 | Subsystem_Function_ID | Business_Function_IDs 
 | --- | --- |
+| SF_SS_ID2_1 | BF1, BF2, BF5 |
+| SF_SS_ID2_2 | BF1, BF2, BF5 |
+| SF_SS_ID2_3 | BF1, BF5 |
+| SF_SS_ID2_4 | BF1, BF5 |
+| SF_SS_ID2_5 | BF1, BF2, BF5 |
+| SF_SS_ID2_6 | BF1, BF2, BF5 |
+| SF_SS_ID2_7 | BF1, BF5 |
+| SF_SS_ID2_8 | BF1, BF5 |
+| SF_SS_ID2_9 | BF3, BF4 | 
+| SF_SS_ID2_10 | BF3, BF4 | 
+| SF_SS_ID2_11 | BF3 | 
+| SF_SS_ID2_12 | BF3 | 
+| SF_SS_ID3_1 |  | 
+| SF_SS_ID4_1 |  | 
