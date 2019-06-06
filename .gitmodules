@@ -3,4 +3,4 @@
 	url = https://github.com/AndysonYs/arm.git
 [submodule "src/EdgeControlPlatform"]
 	path = src/EdgeControlPlatform
-	url = git@github.com:JJJJJJJiYun/EdgeControlPlatform.git
+	url = https://github.com/JJJJJJJiYun/EdgeControlPlatform.git
