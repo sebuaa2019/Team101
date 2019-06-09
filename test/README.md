@@ -117,3 +117,6 @@
 | Gyro Sensor | SS_ID2 | src/Sensor/test/test_gyroscope.py |
 | Temp-Moi Sensor | SS_ID2 | src/Sensor/test/test_temp_moi.py |
 | Untrasonic Sensor | SS_ID2 | src/Sensor/test/test_ultrasonic.py |
+
+## 测试分析
+本测试以系统整体的视角，从业务需求角度出发，追踪定位到达成需求所需的业务功能，进一步追踪到功能和子系统之间的对应关系。从这一对应关系入手，针对子系统的功能进行测试。当子系统功能通过测试时，则根据追踪关系回溯至业务需求，则可以逆推到业务需求是否满足。根据子系统功能ID索引，由测试人员进行测试后，把发现的问题和对应测试样例反馈给开发人员进行修复。最终，全部子系统功能测试通过。进而回溯至业务需求得到如下结论：农田综合管理系统的业务需求BR1~BR5已满足。
