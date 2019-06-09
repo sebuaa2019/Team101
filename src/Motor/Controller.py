@@ -77,15 +77,19 @@ class Controller:
 
     def t_up(self, speed, t_time):
         self.motor.t_up(speed, t_time)
+        self.motor.t_stop(0)
 
     def t_down(self, speed, t_time):
         self.motor.t_down(speed, t_time)
+        self.motor.t_stop(0)
 
     def t_left(self, speed, t_time):
         self.motor.t_left(speed, t_time)
+        self.motor.t_stop(0)
 
     def t_right(self, speed, t_time):
         self.motor.t_right(speed, t_time)
+        self.motor.t_stop(0)
 
     def t_stop(self, t_time):
         self.motor.t_stop(t_time)
