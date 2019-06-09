@@ -109,5 +109,11 @@
 | SF_SS_ID3_6 | BF1,BF2,BF3,BF4,BF5 |
 | SF_SS_ID4_1 |  |
 
-## 子系统单元测试追踪关系
-| Subsystem_ID | 模块名称 | 路径 |
+## 子系统功能模块单元测试追踪关系
+| 模块名称 | 所属子系统ID | 路径 |
+| --- | --- | --- |
+| Motor Controller | SS_ID2 | src/Motor/test/test_controller.py |
+| Euler Sensor | SS_ID2 | src/Sensor/test/test_get_euler.py |
+| Gyro Sensor | SS_ID2 | src/Sensor/test/test_gyroscope.py |
+| Temp-Moi Sensor | SS_ID2 | src/Sensor/test/test_temp_moi.py |
+| Untrasonic Sensor | SS_ID2 | src/Sensor/test/test_ultrasonic.py |
