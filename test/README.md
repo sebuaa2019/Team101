@@ -1,4 +1,4 @@
-﻿# 测试说明
+# 测试说明
 
 ## 需求设计实现追踪图
 
@@ -28,7 +28,7 @@
 | Subsystem_ID | 子系统名称 |
 | --- | --- |
 | SS_ID1 | 综合视觉分析 |
-| SS_ID2 | 综合控制系统 | 
+| SS_ID2 | 综合控制系统 |
 | SS_ID3 | 边缘控制平台 |
 | SS_ID4 | 云服务平台 |
 
@@ -48,11 +48,16 @@
 | SF_SS_ID2_10 | 综合控制系统 | 机械臂上臂移动到指定位置 |
 | SF_SS_ID2_11 | 综合控制系统 | 机械臂钳收缩 |
 | SF_SS_ID2_12 | 综合控制系统 | 机械臂钳舒张 |
-| SF_SS_ID3_1 | 边缘控制平台 |  | 
-| SF_SS_ID4_1 | 云服务平台 |  | 
+| SF_SS_ID3_1 | 边缘控制平台 | 向云服务中心发送消息 |
+| SF_SS_ID3_2 | 边缘控制平台 | 从云服务中心接受指令 |
+| SF_SS_ID3_3 | 边缘控制平台 | 向终端发送指令 |
+| SF_SS_ID3_4 | 边缘控制平台 | 从终端接受消息 |
+| SF_SS_ID3_5 | 边缘控制平台 | 完成云服务中心指令到发送给终端指令的转化 |
+| SF_SS_ID3_6 | 边缘控制平台 | 完成终端消息到云服务中心消息的转化 |
+| SF_SS_ID4_1 | 云服务平台 |  |
 
 ## 业务功能需求与业务需求回溯关系
-| Business_Requirement_ID | Business_Function_IDs 
+| Business_Requirement_ID | Business_Function_IDs |
 | --- | --- |
 | BF1  | BR2, BR3 |
 | BF2 | BR1, BR3 |
@@ -63,7 +68,7 @@
 | BF7 | BR5 |
 
 ## 业务功能需求与业务需求回溯关系
-| Business_Function_ID | Business_Requirement_IDs 
+| Business_Function_ID | Business_Requirement_IDs |
 | --- | --- |
 | BF1  | BR2, BR3 |
 | BF2 | BR1, BR3 |
@@ -74,15 +79,15 @@
 | BF7 | BR5 |
 
 ## 子系统设计与业务功能需求回溯关系
-| Subsystem_ID | Business_Function_IDs 
+| Subsystem_ID | Business_Function_IDs |
 | --- | --- |
 | SS_ID1 | BF1, BF2, BF3, BF4, BF5 |
 | SS_ID2 | BF1, BF3, BF4, BF5 |
-| SS_ID3 | BF1, BF5, BF6 |
+| SS_ID3 | BF1,BF2,BF3,BF4,BF5,BF6 |
 | SS_ID4 | BF1, BF6, BF7 |
 
 ## 子系统功能与业务功能需求回溯关系
-| Subsystem_Function_ID | Business_Function_IDs 
+| Subsystem_Function_ID | Business_Function_IDs |
 | --- | --- |
 | SF_SS_ID2_1 | BF1, BF2, BF5 |
 | SF_SS_ID2_2 | BF1, BF2, BF5 |
@@ -92,9 +97,14 @@
 | SF_SS_ID2_6 | BF1, BF2, BF5 |
 | SF_SS_ID2_7 | BF1, BF5 |
 | SF_SS_ID2_8 | BF1, BF5 |
-| SF_SS_ID2_9 | BF3, BF4 | 
-| SF_SS_ID2_10 | BF3, BF4 | 
-| SF_SS_ID2_11 | BF3 | 
-| SF_SS_ID2_12 | BF3 | 
-| SF_SS_ID3_1 |  | 
-| SF_SS_ID4_1 |  | 
+| SF_SS_ID2_9 | BF3, BF4 |
+| SF_SS_ID2_10 | BF3, BF4 |
+| SF_SS_ID2_11 | BF3 |
+| SF_SS_ID2_12 | BF3 |
+| SF_SS_ID3_1 | BF6 |
+| SF_SS_ID3_2 | BF1,BF2,BF3,BF4,BF5 |
+| SF_SS_ID3_3 | BF1,BF2,BF3,BF4,BF5 |
+| SF_SS_ID3_4 | BF6 |
+| SF_SS_ID3_5 | BF1,BF2,BF3,BF4,BF5 |
+| SF_SS_ID3_6 | BF1,BF2,BF3,BF4,BF5 |
+| SF_SS_ID4_1 |  |
