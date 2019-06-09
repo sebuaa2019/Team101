@@ -108,3 +108,6 @@
 | SF_SS_ID3_5 | BF1,BF2,BF3,BF4,BF5 |
 | SF_SS_ID3_6 | BF1,BF2,BF3,BF4,BF5 |
 | SF_SS_ID4_1 |  |
+
+## 子系统单元测试追踪关系
+| Subsystem_ID | 模块名称 | 路径 |
