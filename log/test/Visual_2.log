@@ -1,200 +1,250 @@
-2019-05-29 15:13:39 INFO Visual The type of plant is:grass
-2019-05-29 15:14:16 INFO Visual The type of plant is:grass
-2019-05-29 15:15:03 INFO Visual The type of plant is:crops
-2019-05-29 15:15:40 INFO Visual The type of plant is:grass
-2019-05-29 15:16:18 INFO Visual The type of plant is:grass
-2019-05-29 15:17:01 INFO Visual The type of plant is:grass
-2019-05-29 15:17:43 INFO Visual The type of plant is:grass
-2019-05-29 15:18:27 INFO Visual The type of plant is:other
-2019-05-29 15:19:11 INFO Visual The type of plant is:grass
-2019-05-29 15:19:57 INFO Visual The type of plant is:grass
-2019-05-29 15:20:37 INFO Visual The type of plant is:crops
-2019-05-29 15:21:14 INFO Visual The type of plant is:grass
-2019-05-29 15:21:53 INFO Visual The type of plant is:grass
-2019-05-29 15:22:30 INFO Visual The type of plant is:crops
-2019-05-29 15:23:09 INFO Visual The type of plant is:grass
-2019-05-29 15:23:51 ERROR Visual WRONG DEMAND
-2019-05-29 15:24:34 INFO Visual The type of plant is:crops
-2019-05-29 15:25:20 INFO Visual The type of plant is:grass
-2019-05-29 15:25:59 INFO Visual The type of plant is:grass
-2019-05-29 15:26:41 INFO Visual The type of plant is:crops
-2019-05-29 15:27:26 INFO Visual The type of plant is:grass
-2019-05-29 15:28:03 INFO Visual The type of plant is:grass
-2019-05-29 15:28:44 INFO Visual The type of plant is:grass
-2019-05-29 15:29:23 INFO Visual The type of plant is:grass
-2019-05-29 15:30:10 INFO Visual The type of plant is:grass
-2019-05-29 15:30:48 INFO Visual The type of plant is:crops
-2019-05-29 15:31:25 ERROR Visual WRONG DEMAND
-2019-05-29 15:32:05 INFO Visual The type of plant is:crops
-2019-05-29 15:32:52 INFO Visual The type of plant is:grass
-2019-05-29 15:33:34 INFO Visual The type of plant is:grass
-2019-05-29 15:34:18 INFO Visual The type of plant is:crops
-2019-05-29 15:35:01 INFO Visual The type of plant is:grass
-2019-05-29 15:35:38 INFO Visual The type of plant is:grass
-2019-05-29 15:36:23 INFO Visual The type of plant is:grass
-2019-05-29 15:37:05 INFO Visual The type of plant is:grass
-2019-05-29 15:37:51 INFO Visual The type of plant is:grass
-2019-05-29 15:38:35 INFO Visual The type of plant is:grass
-2019-05-29 15:39:21 INFO Visual The type of plant is:other
-2019-05-29 15:40:01 INFO Visual The type of plant is:crops
-2019-05-29 15:40:45 INFO Visual The type of plant is:crops
-2019-05-29 15:41:24 INFO Visual The type of plant is:grass
-2019-05-29 15:42:10 INFO Visual The type of plant is:crops
-2019-05-29 15:42:53 INFO Visual The type of plant is:grass
-2019-05-29 15:43:33 INFO Visual The type of plant is:grass
-2019-05-29 15:44:11 INFO Visual The type of plant is:crops
-2019-05-29 15:44:55 INFO Visual The type of plant is:grass
-2019-05-29 15:45:35 INFO Visual The type of plant is:crops
-2019-05-29 15:46:17 INFO Visual The type of plant is:crops
-2019-05-29 15:47:04 INFO Visual The type of plant is:grass
-2019-05-29 15:47:47 INFO Visual The type of plant is:grass
-2019-05-29 15:48:33 INFO Visual The type of plant is:grass
-2019-05-29 15:49:15 INFO Visual The type of plant is:crops
-2019-05-29 15:50:02 INFO Visual The type of plant is:crops
-2019-05-29 15:50:48 INFO Visual The type of plant is:crops
-2019-05-29 15:51:29 INFO Visual The type of plant is:crops
-2019-05-29 15:52:10 INFO Visual The type of plant is:grass
-2019-05-29 15:52:53 INFO Visual The type of plant is:grass
-2019-05-29 15:53:33 INFO Visual The type of plant is:grass
-2019-05-29 15:54:17 INFO Visual The type of plant is:grass
-2019-05-29 15:54:56 INFO Visual The type of plant is:grass
-2019-05-29 15:55:35 INFO Visual The type of plant is:crops
-2019-05-29 15:56:21 INFO Visual The type of plant is:crops
-2019-05-29 15:57:01 INFO Visual The type of plant is:grass
-2019-05-29 15:57:43 INFO Visual The type of plant is:crops
-2019-05-29 15:58:20 INFO Visual The type of plant is:crops
-2019-05-29 15:59:04 INFO Visual The type of plant is:crops
-2019-05-29 15:59:51 INFO Visual The type of plant is:grass
-2019-05-29 16:00:29 INFO Visual The type of plant is:grass
-2019-05-29 16:01:09 INFO Visual The type of plant is:other
-2019-05-29 16:01:50 INFO Visual The type of plant is:grass
-2019-05-29 16:02:28 INFO Visual The type of plant is:grass
-2019-05-29 16:03:12 INFO Visual The type of plant is:grass
-2019-05-29 16:03:55 INFO Visual The type of plant is:grass
-2019-05-29 16:04:38 INFO Visual The type of plant is:other
-2019-05-29 16:05:17 INFO Visual The type of plant is:crops
-2019-05-29 16:06:00 INFO Visual The type of plant is:grass
-2019-05-29 16:06:41 INFO Visual The type of plant is:grass
-2019-05-29 16:07:18 INFO Visual The type of plant is:grass
-2019-05-29 16:08:01 INFO Visual The type of plant is:grass
-2019-05-29 16:08:40 INFO Visual The type of plant is:grass
-2019-05-29 16:09:21 INFO Visual The type of plant is:crops
-2019-05-29 16:10:05 INFO Visual The type of plant is:crops
-2019-05-29 16:10:42 INFO Visual The type of plant is:crops
-2019-05-29 16:11:24 INFO Visual The type of plant is:crops
-2019-05-29 16:12:07 INFO Visual The type of plant is:other
-2019-05-29 16:12:51 INFO Visual The type of plant is:grass
-2019-05-29 16:13:30 ERROR Visual WRONG DEMAND
-2019-05-29 16:14:11 ERROR Visual WRONG DEMAND
-2019-05-29 16:14:51 INFO Visual The type of plant is:grass
-2019-05-29 16:15:33 INFO Visual The type of plant is:grass
-2019-05-29 16:16:18 INFO Visual The type of plant is:grass
-2019-05-29 16:17:05 INFO Visual The type of plant is:grass
-2019-05-29 16:17:47 ERROR Visual WRONG DEMAND
-2019-05-29 16:18:33 INFO Visual The type of plant is:grass
-2019-05-29 16:19:19 INFO Visual The type of plant is:grass
-2019-05-29 16:20:02 INFO Visual The type of plant is:grass
-2019-05-29 16:20:39 INFO Visual The type of plant is:crops
-2019-05-29 16:21:23 INFO Visual The type of plant is:other
-2019-05-29 16:22:06 INFO Visual The type of plant is:grass
-2019-05-29 16:22:46 INFO Visual The type of plant is:grass
-2019-05-29 16:23:24 INFO Visual The type of plant is:grass
-2019-05-29 16:24:03 INFO Visual The type of plant is:grass
-2019-05-29 16:24:41 INFO Visual The type of plant is:crops
-2019-05-29 16:25:19 INFO Visual The type of plant is:grass
-2019-05-29 16:26:05 INFO Visual The type of plant is:grass
-2019-05-29 16:26:43 INFO Visual The type of plant is:grass
-2019-05-29 16:27:22 INFO Visual The type of plant is:grass
-2019-05-29 16:28:02 INFO Visual The type of plant is:crops
-2019-05-29 16:28:49 INFO Visual The type of plant is:grass
-2019-05-29 16:29:26 INFO Visual The type of plant is:crops
-2019-05-29 16:30:05 INFO Visual The type of plant is:crops
-2019-05-29 16:30:45 INFO Visual The type of plant is:grass
-2019-05-29 16:31:23 INFO Visual The type of plant is:crops
-2019-05-29 16:32:05 INFO Visual The type of plant is:grass
-2019-05-29 16:32:44 INFO Visual The type of plant is:other
-2019-05-29 16:33:24 INFO Visual The type of plant is:crops
-2019-05-29 16:34:05 INFO Visual The type of plant is:grass
-2019-05-29 16:34:48 INFO Visual The type of plant is:grass
-2019-05-29 16:35:29 INFO Visual The type of plant is:crops
-2019-05-29 16:36:09 INFO Visual The type of plant is:grass
-2019-05-29 16:36:51 INFO Visual The type of plant is:crops
-2019-05-29 16:37:29 INFO Visual The type of plant is:crops
-2019-05-29 16:38:08 INFO Visual The type of plant is:other
-2019-05-29 16:38:46 INFO Visual The type of plant is:grass
-2019-05-29 16:39:24 INFO Visual The type of plant is:other
-2019-05-29 16:40:08 INFO Visual The type of plant is:crops
-2019-05-29 16:40:47 INFO Visual The type of plant is:grass
-2019-05-29 16:41:30 ERROR Visual WRONG DEMAND
-2019-05-29 16:42:14 INFO Visual The type of plant is:grass
-2019-05-29 16:43:00 INFO Visual The type of plant is:crops
-2019-05-29 16:43:38 INFO Visual The type of plant is:grass
-2019-05-29 16:44:21 INFO Visual The type of plant is:crops
-2019-05-29 16:45:05 INFO Visual The type of plant is:crops
-2019-05-29 16:45:48 INFO Visual The type of plant is:crops
-2019-05-29 16:46:28 INFO Visual The type of plant is:grass
-2019-05-29 16:47:12 INFO Visual The type of plant is:other
-2019-05-29 16:47:54 INFO Visual The type of plant is:grass
-2019-05-29 16:48:31 INFO Visual The type of plant is:grass
-2019-05-29 16:49:09 INFO Visual The type of plant is:grass
-2019-05-29 16:49:56 INFO Visual The type of plant is:grass
-2019-05-29 16:50:42 INFO Visual The type of plant is:crops
-2019-05-29 16:51:27 INFO Visual The type of plant is:other
-2019-05-29 16:52:09 INFO Visual The type of plant is:grass
-2019-05-29 16:52:55 INFO Visual The type of plant is:grass
-2019-05-29 16:53:38 INFO Visual The type of plant is:grass
-2019-05-29 16:54:17 INFO Visual The type of plant is:grass
-2019-05-29 16:54:57 INFO Visual The type of plant is:grass
-2019-05-29 16:55:43 INFO Visual The type of plant is:crops
-2019-05-29 16:56:21 INFO Visual The type of plant is:crops
-2019-05-29 16:57:04 INFO Visual The type of plant is:crops
-2019-05-29 16:57:47 INFO Visual The type of plant is:grass
-2019-05-29 16:58:33 INFO Visual The type of plant is:other
-2019-05-29 16:59:13 ERROR Visual WRONG DEMAND
-2019-05-29 16:59:59 INFO Visual The type of plant is:grass
-2019-05-29 17:00:44 INFO Visual The type of plant is:grass
-2019-05-29 17:01:24 INFO Visual The type of plant is:crops
-2019-05-29 17:02:05 INFO Visual The type of plant is:grass
-2019-05-29 17:02:43 INFO Visual The type of plant is:grass
-2019-05-29 17:03:22 INFO Visual The type of plant is:grass
-2019-05-29 17:04:08 INFO Visual The type of plant is:grass
-2019-05-29 17:04:55 INFO Visual The type of plant is:crops
-2019-05-29 17:05:41 ERROR Visual WRONG DEMAND
-2019-05-29 17:06:20 INFO Visual The type of plant is:crops
-2019-05-29 17:07:04 INFO Visual The type of plant is:grass
-2019-05-29 17:07:47 INFO Visual The type of plant is:grass
-2019-05-29 17:08:31 INFO Visual The type of plant is:other
-2019-05-29 17:09:17 INFO Visual The type of plant is:grass
-2019-05-29 17:10:01 INFO Visual The type of plant is:other
-2019-05-29 17:10:44 INFO Visual The type of plant is:grass
-2019-05-29 17:11:21 INFO Visual The type of plant is:grass
-2019-05-29 17:11:58 INFO Visual The type of plant is:grass
-2019-05-29 17:12:35 INFO Visual The type of plant is:crops
-2019-05-29 17:13:22 INFO Visual The type of plant is:grass
-2019-05-29 17:14:06 INFO Visual The type of plant is:grass
-2019-05-29 17:14:48 INFO Visual The type of plant is:grass
-2019-05-29 17:15:35 INFO Visual The type of plant is:crops
-2019-05-29 17:16:17 INFO Visual The type of plant is:grass
-2019-05-29 17:17:03 INFO Visual The type of plant is:grass
-2019-05-29 17:17:42 INFO Visual The type of plant is:grass
-2019-05-29 17:18:25 INFO Visual The type of plant is:grass
-2019-05-29 17:19:10 INFO Visual The type of plant is:grass
-2019-05-29 17:19:57 INFO Visual The type of plant is:crops
-2019-05-29 17:20:38 INFO Visual The type of plant is:crops
-2019-05-29 17:21:15 INFO Visual The type of plant is:grass
-2019-05-29 17:21:55 INFO Visual The type of plant is:grass
-2019-05-29 17:22:40 INFO Visual The type of plant is:crops
-2019-05-29 17:23:22 INFO Visual The type of plant is:grass
-2019-05-29 17:24:08 ERROR Visual WRONG DEMAND
-2019-05-29 17:24:55 INFO Visual The type of plant is:crops
-2019-05-29 17:25:36 INFO Visual The type of plant is:crops
-2019-05-29 17:26:14 INFO Visual The type of plant is:grass
-2019-05-29 17:26:52 INFO Visual The type of plant is:crops
-2019-05-29 17:27:30 INFO Visual The type of plant is:grass
-2019-05-29 17:28:07 INFO Visual The type of plant is:grass
-2019-05-29 17:28:49 INFO Visual The type of plant is:grass
-2019-05-29 17:29:33 INFO Visual The type of plant is:grass
-2019-05-29 17:30:18 INFO Visual The type of plant is:crops
-2019-05-29 17:30:57 INFO Visual The type of plant is:grass
-2019-05-29 17:31:34 INFO Visual The type of plant is:grass
-2019-05-29 17:32:14 INFO Visual The type of plant is:grass
+2019-05-29 14:22:01 INFO Visual The plant needs care
+2019-05-29 14:22:03 INFO Visual The plant is fine
+2019-05-29 14:22:03 INFO Visual The plant is fine
+2019-05-29 14:22:04 INFO Visual The plant is fine
+2019-05-29 14:22:04 INFO Visual The plant is fine
+2019-05-29 14:22:06 INFO Visual The plant needs care
+2019-05-29 14:22:06 INFO Visual The plant is fine
+2019-05-29 14:22:09 INFO Visual The plant is fine
+2019-05-29 14:22:11 INFO Visual The plant is fine
+2019-05-29 14:22:13 INFO Visual The plant needs care
+2019-05-29 14:22:15 INFO Visual The plant is fine
+2019-05-29 14:22:15 INFO Visual The plant needs care
+2019-05-29 14:22:18 INFO Visual The plant is fine
+2019-05-29 14:22:18 INFO Visual The plant is fine
+2019-05-29 14:22:18 INFO Visual The plant is fine
+2019-05-29 14:22:21 INFO Visual The plant needs care
+2019-05-29 14:22:23 INFO Visual The plant is fine
+2019-05-29 14:22:24 INFO Visual The plant is fine
+2019-05-29 14:22:25 INFO Visual The plant is fine
+2019-05-29 14:22:26 INFO Visual The plant is fine
+2019-05-29 14:22:29 INFO Visual The plant is fine
+2019-05-29 14:22:31 INFO Visual The plant needs care
+2019-05-29 14:22:31 INFO Visual The plant needs care
+2019-05-29 14:22:32 INFO Visual The plant needs care
+2019-05-29 14:22:33 INFO Visual The plant is fine
+2019-05-29 14:22:35 INFO Visual The plant is fine
+2019-05-29 14:22:36 INFO Visual The plant needs care
+2019-05-29 14:22:36 INFO Visual The plant is fine
+2019-05-29 14:22:37 INFO Visual The plant is fine
+2019-05-29 14:22:39 INFO Visual The plant needs care
+2019-05-29 14:22:40 INFO Visual The plant needs care
+2019-05-29 14:22:42 INFO Visual The plant is fine
+2019-05-29 14:22:42 INFO Visual The plant is fine
+2019-05-29 14:22:44 INFO Visual The plant is fine
+2019-05-29 14:22:44 INFO Visual The plant is fine
+2019-05-29 14:22:44 INFO Visual The plant is fine
+2019-05-29 14:22:47 INFO Visual The plant needs care
+2019-05-29 14:22:48 INFO Visual The plant needs care
+2019-05-29 14:22:49 INFO Visual The plant needs care
+2019-05-29 14:22:49 INFO Visual The plant needs care
+2019-05-29 14:22:52 INFO Visual The plant needs care
+2019-05-29 14:22:52 INFO Visual The plant is fine
+2019-05-29 14:22:53 INFO Visual The plant is fine
+2019-05-29 14:22:56 INFO Visual The plant needs care
+2019-05-29 14:22:58 INFO Visual The plant is fine
+2019-05-29 14:23:01 INFO Visual The plant is fine
+2019-05-29 14:23:04 INFO Visual The plant is fine
+2019-05-29 14:23:05 INFO Visual The plant is fine
+2019-05-29 14:23:07 INFO Visual The plant is fine
+2019-05-29 14:23:09 INFO Visual The plant is fine
+2019-05-29 14:23:10 INFO Visual The plant is fine
+2019-05-29 14:23:12 INFO Visual The plant is fine
+2019-05-29 14:23:13 ERROR Visual WRONG DEMAND
+2019-05-29 14:23:14 INFO Visual The plant is fine
+2019-05-29 14:23:15 INFO Visual The plant is fine
+2019-05-29 14:23:18 INFO Visual The plant is fine
+2019-05-29 14:23:18 INFO Visual The plant needs care
+2019-05-29 14:23:20 INFO Visual The plant is fine
+2019-05-29 14:23:23 INFO Visual The plant is fine
+2019-05-29 14:23:24 INFO Visual The plant is fine
+2019-05-29 14:23:26 INFO Visual The plant needs care
+2019-05-29 14:23:29 INFO Visual The plant needs care
+2019-05-29 14:23:32 INFO Visual The plant is fine
+2019-05-29 14:23:32 INFO Visual The plant is fine
+2019-05-29 14:23:33 INFO Visual The plant is fine
+2019-05-29 14:23:34 INFO Visual The plant needs care
+2019-05-29 14:23:36 INFO Visual The plant is fine
+2019-05-29 14:23:36 INFO Visual The plant is fine
+2019-05-29 14:23:37 INFO Visual The plant needs care
+2019-05-29 14:23:38 INFO Visual The plant is fine
+2019-05-29 14:23:39 INFO Visual The plant needs care
+2019-05-29 14:23:40 INFO Visual The plant is fine
+2019-05-29 14:23:40 INFO Visual The plant is fine
+2019-05-29 14:23:40 INFO Visual The plant is fine
+2019-05-29 14:23:41 INFO Visual The plant is fine
+2019-05-29 14:23:43 INFO Visual The plant needs care
+2019-05-29 14:23:46 INFO Visual The plant is fine
+2019-05-29 14:23:46 INFO Visual The plant needs care
+2019-05-29 14:23:47 INFO Visual The plant is fine
+2019-05-29 14:23:47 INFO Visual The plant is fine
+2019-05-29 14:23:47 INFO Visual The plant is fine
+2019-05-29 14:23:47 INFO Visual The plant is fine
+2019-05-29 14:23:47 INFO Visual The plant is fine
+2019-05-29 14:23:49 INFO Visual The plant needs care
+2019-05-29 14:23:52 INFO Visual The plant is fine
+2019-05-29 14:23:54 INFO Visual The plant is fine
+2019-05-29 14:23:57 INFO Visual The plant is fine
+2019-05-29 14:23:58 INFO Visual The plant is fine
+2019-05-29 14:23:59 INFO Visual The plant needs care
+2019-05-29 14:24:01 INFO Visual The plant is fine
+2019-05-29 14:24:03 INFO Visual The plant is fine
+2019-05-29 14:24:06 INFO Visual The plant is fine
+2019-05-29 14:24:09 INFO Visual The plant is fine
+2019-05-29 14:24:12 ERROR Visual WRONG DEMAND
+2019-05-29 14:24:13 INFO Visual The plant is fine
+2019-05-29 14:24:13 INFO Visual The plant needs care
+2019-05-29 14:24:14 INFO Visual The plant is fine
+2019-05-29 14:24:16 INFO Visual The plant is fine
+2019-05-29 14:24:19 ERROR Visual WRONG DEMAND
+2019-05-29 14:24:22 INFO Visual The plant needs care
+2019-05-29 14:24:24 INFO Visual The plant is fine
+2019-05-29 14:24:26 INFO Visual The plant is fine
+2019-05-29 14:24:26 INFO Visual The plant is fine
+2019-05-29 14:24:28 INFO Visual The plant is fine
+2019-05-29 14:24:29 INFO Visual The plant needs care
+2019-05-29 14:24:29 INFO Visual The plant needs care
+2019-05-29 14:24:30 INFO Visual The plant needs care
+2019-05-29 14:24:32 INFO Visual The plant is fine
+2019-05-29 14:24:33 INFO Visual The plant is fine
+2019-05-29 14:24:34 INFO Visual The plant is fine
+2019-05-29 14:24:36 INFO Visual The plant needs care
+2019-05-29 14:24:38 INFO Visual The plant is fine
+2019-05-29 14:24:39 INFO Visual The plant needs care
+2019-05-29 14:24:42 INFO Visual The plant is fine
+2019-05-29 14:24:45 INFO Visual The plant is fine
+2019-05-29 14:24:48 INFO Visual The plant is fine
+2019-05-29 14:24:49 ERROR Visual WRONG DEMAND
+2019-05-29 14:24:49 INFO Visual The plant is fine
+2019-05-29 14:24:50 INFO Visual The plant needs care
+2019-05-29 14:24:50 INFO Visual The plant needs care
+2019-05-29 14:24:53 INFO Visual The plant is fine
+2019-05-29 14:24:55 INFO Visual The plant is fine
+2019-05-29 14:24:57 INFO Visual The plant is fine
+2019-05-29 14:24:57 INFO Visual The plant is fine
+2019-05-29 14:24:57 INFO Visual The plant is fine
+2019-05-29 14:24:57 INFO Visual The plant is fine
+2019-05-29 14:24:59 INFO Visual The plant is fine
+2019-05-29 14:25:00 INFO Visual The plant is fine
+2019-05-29 14:25:03 INFO Visual The plant is fine
+2019-05-29 14:25:05 INFO Visual The plant is fine
+2019-05-29 14:25:05 INFO Visual The plant is fine
+2019-05-29 14:25:07 INFO Visual The plant is fine
+2019-05-29 14:25:08 INFO Visual The plant is fine
+2019-05-29 14:25:08 INFO Visual The plant needs care
+2019-05-29 14:25:10 INFO Visual The plant is fine
+2019-05-29 14:25:12 ERROR Visual WRONG DEMAND
+2019-05-29 14:25:15 ERROR Visual WRONG DEMAND
+2019-05-29 14:25:18 INFO Visual The plant is fine
+2019-05-29 14:25:18 INFO Visual The plant is fine
+2019-05-29 14:25:18 INFO Visual The plant needs care
+2019-05-29 14:25:18 INFO Visual The plant is fine
+2019-05-29 14:25:18 INFO Visual The plant is fine
+2019-05-29 14:25:19 INFO Visual The plant is fine
+2019-05-29 14:25:20 INFO Visual The plant is fine
+2019-05-29 14:25:21 INFO Visual The plant is fine
+2019-05-29 14:25:24 INFO Visual The plant is fine
+2019-05-29 14:25:26 INFO Visual The plant is fine
+2019-05-29 14:25:28 INFO Visual The plant is fine
+2019-05-29 14:25:31 INFO Visual The plant needs care
+2019-05-29 14:25:31 INFO Visual The plant is fine
+2019-05-29 14:25:33 INFO Visual The plant is fine
+2019-05-29 14:25:33 INFO Visual The plant needs care
+2019-05-29 14:25:34 INFO Visual The plant is fine
+2019-05-29 14:25:36 INFO Visual The plant is fine
+2019-05-29 14:25:39 INFO Visual The plant is fine
+2019-05-29 14:25:39 INFO Visual The plant is fine
+2019-05-29 14:25:40 INFO Visual The plant is fine
+2019-05-29 14:25:43 INFO Visual The plant is fine
+2019-05-29 14:25:43 ERROR Visual WRONG DEMAND
+2019-05-29 14:25:43 INFO Visual The plant is fine
+2019-05-29 14:25:44 INFO Visual The plant is fine
+2019-05-29 14:25:46 INFO Visual The plant is fine
+2019-05-29 14:25:49 INFO Visual The plant is fine
+2019-05-29 14:25:50 INFO Visual The plant needs care
+2019-05-29 14:25:53 INFO Visual The plant is fine
+2019-05-29 14:25:54 INFO Visual The plant is fine
+2019-05-29 14:25:54 INFO Visual The plant is fine
+2019-05-29 14:25:56 INFO Visual The plant is fine
+2019-05-29 14:25:58 INFO Visual The plant is fine
+2019-05-29 14:25:59 INFO Visual The plant needs care
+2019-05-29 14:26:01 INFO Visual The plant is fine
+2019-05-29 14:26:03 INFO Visual The plant needs care
+2019-05-29 14:26:06 INFO Visual The plant is fine
+2019-05-29 14:26:09 INFO Visual The plant needs care
+2019-05-29 14:26:10 INFO Visual The plant is fine
+2019-05-29 14:26:10 INFO Visual The plant needs care
+2019-05-29 14:26:12 INFO Visual The plant needs care
+2019-05-29 14:26:14 INFO Visual The plant needs care
+2019-05-29 14:26:16 INFO Visual The plant is fine
+2019-05-29 14:26:18 INFO Visual The plant is fine
+2019-05-29 14:26:18 INFO Visual The plant is fine
+2019-05-29 14:26:21 INFO Visual The plant is fine
+2019-05-29 14:26:23 INFO Visual The plant is fine
+2019-05-29 14:26:24 INFO Visual The plant needs care
+2019-05-29 14:26:25 ERROR Visual WRONG DEMAND
+2019-05-29 14:26:28 INFO Visual The plant needs care
+2019-05-29 14:26:30 INFO Visual The plant is fine
+2019-05-29 14:26:33 INFO Visual The plant is fine
+2019-05-29 14:26:35 INFO Visual The plant is fine
+2019-05-29 14:26:38 ERROR Visual WRONG DEMAND
+2019-05-29 14:26:39 INFO Visual The plant needs care
+2019-05-29 14:26:41 INFO Visual The plant needs care
+2019-05-29 14:26:44 INFO Visual The plant needs care
+2019-05-29 14:26:47 INFO Visual The plant needs care
+2019-05-29 14:26:50 INFO Visual The plant is fine
+2019-05-29 14:26:50 INFO Visual The plant is fine
+2019-05-29 14:26:50 INFO Visual The plant is fine
+2019-05-29 14:26:50 INFO Visual The plant is fine
+2019-05-29 14:26:50 INFO Visual The plant is fine
+2019-05-29 14:26:53 INFO Visual The plant is fine
+2019-05-29 14:26:55 INFO Visual The plant needs care
+2019-05-29 14:26:55 INFO Visual The plant is fine
+2019-05-29 14:26:55 INFO Visual The plant needs care
+2019-05-29 14:26:57 ERROR Visual WRONG DEMAND
+2019-05-29 14:27:00 INFO Visual The plant is fine
+2019-05-29 14:27:00 INFO Visual The plant needs care
+2019-05-29 14:27:02 INFO Visual The plant is fine
+2019-05-29 14:27:02 INFO Visual The plant needs care
+2019-05-29 14:27:03 INFO Visual The plant is fine
+2019-05-29 14:27:03 INFO Visual The plant is fine
+2019-05-29 14:27:05 INFO Visual The plant is fine
+2019-05-29 14:27:07 INFO Visual The plant is fine
+2019-05-29 14:27:09 INFO Visual The plant is fine
+2019-05-29 14:27:12 INFO Visual The plant is fine
+2019-05-29 14:27:14 INFO Visual The plant needs care
+2019-05-29 14:27:16 INFO Visual The plant is fine
+2019-05-29 14:27:19 INFO Visual The plant is fine
+2019-05-29 14:27:20 INFO Visual The plant is fine
+2019-05-29 14:27:22 INFO Visual The plant is fine
+2019-05-29 14:27:22 INFO Visual The plant is fine
+2019-05-29 14:27:24 INFO Visual The plant is fine
+2019-05-29 14:27:24 INFO Visual The plant is fine
+2019-05-29 14:27:27 INFO Visual The plant is fine
+2019-05-29 14:27:28 INFO Visual The plant needs care
+2019-05-29 14:27:28 INFO Visual The plant needs care
+2019-05-29 14:27:29 INFO Visual The plant is fine
+2019-05-29 14:27:32 INFO Visual The plant needs care
+2019-05-29 14:27:35 INFO Visual The plant is fine
+2019-05-29 14:27:37 INFO Visual The plant needs care
+2019-05-29 14:27:37 INFO Visual The plant is fine
+2019-05-29 14:27:39 INFO Visual The plant is fine
+2019-05-29 14:27:41 INFO Visual The plant is fine
+2019-05-29 14:27:41 INFO Visual The plant is fine
+2019-05-29 14:27:44 ERROR Visual WRONG DEMAND
+2019-05-29 14:27:47 INFO Visual The plant needs care
+2019-05-29 14:27:47 INFO Visual The plant needs care
+2019-05-29 14:27:50 INFO Visual The plant is fine
+2019-05-29 14:27:53 INFO Visual The plant needs care
+2019-05-29 14:27:53 INFO Visual The plant is fine
+2019-05-29 14:27:56 INFO Visual The plant needs care
+2019-05-29 14:27:58 INFO Visual The plant needs care
+2019-05-29 14:27:59 INFO Visual The plant is fine
+2019-05-29 14:28:01 INFO Visual The plant is fine
+2019-05-29 14:28:01 ERROR Visual WRONG DEMAND
+2019-05-29 14:28:01 INFO Visual The plant needs care
+2019-05-29 14:28:01 INFO Visual The plant is fine
+2019-05-29 14:28:02 INFO Visual The plant is fine
+2019-05-29 14:28:05 INFO Visual The plant is fine
+2019-05-29 14:28:06 INFO Visual The plant is fine
+2019-05-29 14:28:07 INFO Visual The plant is fine

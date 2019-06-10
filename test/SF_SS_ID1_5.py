@@ -1,14 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-import tensorflow as tf
+﻿import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 import matplotlib.pyplot as plt
 import model
+import os
 
 #训练集数据划分正确率评估
 data = np.load("../input/Data.npz")
@@ -30,23 +25,40 @@ accuracy_all=[]
 def test():
     plant_type=input()#手动输入
     right_times=0;
-    for i in range(0,5):
+    time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
+    level = 2
+    info =  'The type of the input：'+plant_type
+    print(toLog(time, level , "Visual", info))
+    
+    for img in os.listdir(r"./img"): 
         
-        img=va.getphoto()#获取图片
+        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
+        level = 2
+        info =  'start analyse'
+        print(toLog(time, level , "Visual", info))
+    
         task=Task('classification',0,img,0)
         end=va.send_img_message(task)
         if(end==plant_type):
             right_times=right_times+1
+            time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
+            level = 2
+            info =  'The type of the image is crops'
+            print(toLog(time, level , "Visual", info))
+        else:
+            time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
+            level = 2
+            info =  'The type of the timage is grass'
+            print(toLog(time, level , "Visual", info))
             
-    accuracy=right_times/5
-    accuracy_all.append(accuracy)
-
-def dsp_accuracy():
-    sum=0
-    times=0
-    for i in accuracy_all:
-        sum+=i
-        times=times+1
+    accuracy=right_times/100
     
-    print(sum/i)
+    time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
+    level = 2
+    info =  accuracy
+    print(toLog(time, level , "Visual", info))
+    
 
+for i in range(26):
+    test()
+    

@@ -1,250 +1,163 @@
-2019-05-29 14:22:40 INFO Visual The plant is fine
-2019-05-29 14:23:25 INFO Visual The plant is fine
-2019-05-29 14:24:11 INFO Visual The plant needs care
-2019-05-29 14:24:57 INFO Visual The plant is fine
-2019-05-29 14:25:39 INFO Visual The plant needs care
-2019-05-29 14:26:19 INFO Visual The plant needs care
-2019-05-29 14:27:03 INFO Visual The plant needs care
-2019-05-29 14:27:47 INFO Visual The plant is fine
-2019-05-29 14:28:28 INFO Visual The plant is fine
-2019-05-29 14:29:09 INFO Visual The plant needs care
-2019-05-29 14:29:56 INFO Visual The plant is fine
-2019-05-29 14:30:40 INFO Visual The plant is fine
-2019-05-29 14:31:21 INFO Visual The plant is fine
-2019-05-29 14:31:59 INFO Visual The plant is fine
-2019-05-29 14:32:39 INFO Visual The plant needs care
-2019-05-29 14:33:25 INFO Visual The plant is fine
-2019-05-29 14:34:05 INFO Visual The plant needs care
-2019-05-29 14:34:48 ERROR Visual ERROR DEMAND
-2019-05-29 14:35:34 INFO Visual The plant needs care
-2019-05-29 14:36:21 INFO Visual The plant is fine
-2019-05-29 14:37:05 INFO Visual The plant needs care
-2019-05-29 14:37:42 INFO Visual The plant is fine
-2019-05-29 14:38:20 INFO Visual The plant is fine
-2019-05-29 14:38:59 INFO Visual The plant is fine
-2019-05-29 14:39:43 INFO Visual The plant is fine
-2019-05-29 14:40:27 INFO Visual The plant is fine
-2019-05-29 14:41:07 INFO Visual The plant is fine
-2019-05-29 14:41:44 INFO Visual The plant is fine
-2019-05-29 14:42:22 INFO Visual The plant is fine
-2019-05-29 14:43:02 INFO Visual The plant is fine
-2019-05-29 14:43:48 INFO Visual The plant is fine
-2019-05-29 14:44:30 ERROR Visual ERROR DEMAND
-2019-05-29 14:45:11 INFO Visual The plant is fine
-2019-05-29 14:45:53 INFO Visual The plant is fine
-2019-05-29 14:46:36 INFO Visual The plant needs care
-2019-05-29 14:47:18 INFO Visual The plant is fine
-2019-05-29 14:47:58 INFO Visual The plant is fine
-2019-05-29 14:48:37 INFO Visual The plant is fine
-2019-05-29 14:49:24 INFO Visual The plant is fine
-2019-05-29 14:50:06 INFO Visual The plant is fine
-2019-05-29 14:50:51 INFO Visual The plant needs care
-2019-05-29 14:51:38 INFO Visual The plant is fine
-2019-05-29 14:52:23 INFO Visual The plant needs care
-2019-05-29 14:53:09 INFO Visual The plant is fine
-2019-05-29 14:53:54 INFO Visual The plant needs care
-2019-05-29 14:54:32 INFO Visual The plant is fine
-2019-05-29 14:55:19 INFO Visual The plant needs care
-2019-05-29 14:56:06 INFO Visual The plant is fine
-2019-05-29 14:56:46 INFO Visual The plant needs care
-2019-05-29 14:57:27 INFO Visual The plant is fine
-2019-05-29 14:58:11 INFO Visual The plant is fine
-2019-05-29 14:58:50 INFO Visual The plant needs care
-2019-05-29 14:59:36 INFO Visual The plant is fine
-2019-05-29 15:00:17 INFO Visual The plant is fine
-2019-05-29 15:00:55 INFO Visual The plant is fine
-2019-05-29 15:01:42 INFO Visual The plant is fine
-2019-05-29 15:02:23 INFO Visual The plant needs care
-2019-05-29 15:03:10 INFO Visual The plant needs care
-2019-05-29 15:03:54 INFO Visual The plant is fine
-2019-05-29 15:04:32 INFO Visual The plant is fine
-2019-05-29 15:05:19 INFO Visual The plant needs care
-2019-05-29 15:06:04 INFO Visual The plant is fine
-2019-05-29 15:06:47 INFO Visual The plant needs care
-2019-05-29 15:07:26 INFO Visual The plant is fine
-2019-05-29 15:08:04 INFO Visual The plant needs care
-2019-05-29 15:08:51 INFO Visual The plant is fine
-2019-05-29 15:09:34 INFO Visual The plant is fine
-2019-05-29 15:10:16 INFO Visual The plant is fine
-2019-05-29 15:11:02 INFO Visual The plant is fine
-2019-05-29 15:11:49 INFO Visual The plant needs care
-2019-05-29 15:12:32 INFO Visual The plant needs care
-2019-05-29 15:13:11 INFO Visual The plant is fine
-2019-05-29 15:13:48 INFO Visual The plant is fine
-2019-05-29 15:14:31 INFO Visual The plant is fine
-2019-05-29 15:15:10 INFO Visual The plant is fine
-2019-05-29 15:15:54 INFO Visual The plant needs care
-2019-05-29 15:16:36 INFO Visual The plant is fine
-2019-05-29 15:17:13 INFO Visual The plant is fine
-2019-05-29 15:17:56 INFO Visual The plant needs care
-2019-05-29 15:18:33 INFO Visual The plant is fine
-2019-05-29 15:19:12 INFO Visual The plant is fine
-2019-05-29 15:19:50 INFO Visual The plant is fine
-2019-05-29 15:20:30 INFO Visual The plant is fine
-2019-05-29 15:21:09 INFO Visual The plant is fine
-2019-05-29 15:21:56 INFO Visual The plant is fine
-2019-05-29 15:22:35 INFO Visual The plant is fine
-2019-05-29 15:23:21 ERROR Visual ERROR DEMAND
-2019-05-29 15:24:06 INFO Visual The plant is fine
-2019-05-29 15:24:45 INFO Visual The plant is fine
-2019-05-29 15:25:30 INFO Visual The plant is fine
-2019-05-29 15:26:14 INFO Visual The plant is fine
-2019-05-29 15:26:55 INFO Visual The plant is fine
-2019-05-29 15:27:36 INFO Visual The plant is fine
-2019-05-29 15:28:20 INFO Visual The plant is fine
-2019-05-29 15:29:02 INFO Visual The plant is fine
-2019-05-29 15:29:40 INFO Visual The plant is fine
-2019-05-29 15:30:27 INFO Visual The plant is fine
-2019-05-29 15:31:06 INFO Visual The plant is fine
-2019-05-29 15:31:49 INFO Visual The plant is fine
-2019-05-29 15:32:28 INFO Visual The plant needs care
-2019-05-29 15:33:07 INFO Visual The plant is fine
-2019-05-29 15:33:48 INFO Visual The plant is fine
-2019-05-29 15:34:35 INFO Visual The plant needs care
-2019-05-29 15:35:20 INFO Visual The plant is fine
-2019-05-29 15:36:05 INFO Visual The plant needs care
-2019-05-29 15:36:46 INFO Visual The plant is fine
-2019-05-29 15:37:33 INFO Visual The plant is fine
-2019-05-29 15:38:12 INFO Visual The plant is fine
-2019-05-29 15:38:56 INFO Visual The plant is fine
-2019-05-29 15:39:43 INFO Visual The plant is fine
-2019-05-29 15:40:29 INFO Visual The plant is fine
-2019-05-29 15:41:14 INFO Visual The plant is fine
-2019-05-29 15:42:01 INFO Visual The plant is fine
-2019-05-29 15:42:39 INFO Visual The plant is fine
-2019-05-29 15:43:26 INFO Visual The plant needs care
-2019-05-29 15:44:11 INFO Visual The plant is fine
-2019-05-29 15:44:51 INFO Visual The plant needs care
-2019-05-29 15:45:33 INFO Visual The plant is fine
-2019-05-29 15:46:13 INFO Visual The plant is fine
-2019-05-29 15:46:53 INFO Visual The plant is fine
-2019-05-29 15:47:39 INFO Visual The plant is fine
-2019-05-29 15:48:20 INFO Visual The plant needs care
-2019-05-29 15:49:07 INFO Visual The plant needs care
-2019-05-29 15:49:44 INFO Visual The plant is fine
-2019-05-29 15:50:27 INFO Visual The plant is fine
-2019-05-29 15:51:06 INFO Visual The plant needs care
-2019-05-29 15:51:46 INFO Visual The plant is fine
-2019-05-29 15:52:33 INFO Visual The plant is fine
-2019-05-29 15:53:11 INFO Visual The plant needs care
-2019-05-29 15:53:51 INFO Visual The plant is fine
-2019-05-29 15:54:31 INFO Visual The plant is fine
-2019-05-29 15:55:17 INFO Visual The plant is fine
-2019-05-29 15:55:56 INFO Visual The plant needs care
-2019-05-29 15:56:41 INFO Visual The plant needs care
-2019-05-29 15:57:18 INFO Visual The plant is fine
-2019-05-29 15:57:55 INFO Visual The plant is fine
-2019-05-29 15:58:34 INFO Visual The plant needs care
-2019-05-29 15:59:13 INFO Visual The plant is fine
-2019-05-29 15:59:50 INFO Visual The plant is fine
-2019-05-29 16:00:37 INFO Visual The plant is fine
-2019-05-29 16:01:18 INFO Visual The plant is fine
-2019-05-29 16:01:56 INFO Visual The plant needs care
-2019-05-29 16:02:38 INFO Visual The plant is fine
-2019-05-29 16:03:17 INFO Visual The plant is fine
-2019-05-29 16:04:04 INFO Visual The plant is fine
-2019-05-29 16:04:43 INFO Visual The plant is fine
-2019-05-29 16:05:24 INFO Visual The plant is fine
-2019-05-29 16:06:10 INFO Visual The plant is fine
-2019-05-29 16:06:53 INFO Visual The plant is fine
-2019-05-29 16:07:37 INFO Visual The plant is fine
-2019-05-29 16:08:18 INFO Visual The plant is fine
-2019-05-29 16:08:59 INFO Visual The plant is fine
-2019-05-29 16:09:36 INFO Visual The plant is fine
-2019-05-29 16:10:18 INFO Visual The plant is fine
-2019-05-29 16:10:57 INFO Visual The plant is fine
-2019-05-29 16:11:34 INFO Visual The plant is fine
-2019-05-29 16:12:12 INFO Visual The plant needs care
-2019-05-29 16:12:49 INFO Visual The plant is fine
-2019-05-29 16:13:32 INFO Visual The plant is fine
-2019-05-29 16:14:19 INFO Visual The plant needs care
-2019-05-29 16:14:56 INFO Visual The plant needs care
-2019-05-29 16:15:40 INFO Visual The plant is fine
-2019-05-29 16:16:20 INFO Visual The plant is fine
-2019-05-29 16:16:58 INFO Visual The plant needs care
-2019-05-29 16:17:38 INFO Visual The plant is fine
-2019-05-29 16:18:19 INFO Visual The plant is fine
-2019-05-29 16:19:00 INFO Visual The plant is fine
-2019-05-29 16:19:39 INFO Visual The plant needs care
-2019-05-29 16:20:21 INFO Visual The plant is fine
-2019-05-29 16:21:08 INFO Visual The plant is fine
-2019-05-29 16:21:55 INFO Visual The plant needs care
-2019-05-29 16:22:35 INFO Visual The plant is fine
-2019-05-29 16:23:21 INFO Visual The plant is fine
-2019-05-29 16:23:58 INFO Visual The plant is fine
-2019-05-29 16:24:38 INFO Visual The plant is fine
-2019-05-29 16:25:23 INFO Visual The plant is fine
-2019-05-29 16:26:05 INFO Visual The plant is fine
-2019-05-29 16:26:52 INFO Visual The plant is fine
-2019-05-29 16:27:30 INFO Visual The plant is fine
-2019-05-29 16:28:17 INFO Visual The plant is fine
-2019-05-29 16:28:54 INFO Visual The plant is fine
-2019-05-29 16:29:31 INFO Visual The plant is fine
-2019-05-29 16:30:18 INFO Visual The plant needs care
-2019-05-29 16:30:56 INFO Visual The plant needs care
-2019-05-29 16:31:34 INFO Visual The plant is fine
-2019-05-29 16:32:21 ERROR Visual ERROR DEMAND
-2019-05-29 16:33:05 INFO Visual The plant needs care
-2019-05-29 16:33:49 INFO Visual The plant is fine
-2019-05-29 16:34:29 INFO Visual The plant is fine
-2019-05-29 16:35:13 INFO Visual The plant is fine
-2019-05-29 16:35:50 INFO Visual The plant needs care
-2019-05-29 16:36:37 INFO Visual The plant needs care
-2019-05-29 16:37:20 INFO Visual The plant is fine
-2019-05-29 16:38:05 INFO Visual The plant is fine
-2019-05-29 16:38:52 INFO Visual The plant is fine
-2019-05-29 16:39:34 ERROR Visual ERROR DEMAND
-2019-05-29 16:40:13 INFO Visual The plant is fine
-2019-05-29 16:40:50 INFO Visual The plant is fine
-2019-05-29 16:41:27 INFO Visual The plant is fine
-2019-05-29 16:42:04 INFO Visual The plant is fine
-2019-05-29 16:42:46 INFO Visual The plant is fine
-2019-05-29 16:43:24 INFO Visual The plant is fine
-2019-05-29 16:44:10 INFO Visual The plant is fine
-2019-05-29 16:44:49 INFO Visual The plant is fine
-2019-05-29 16:45:31 INFO Visual The plant is fine
-2019-05-29 16:46:09 INFO Visual The plant is fine
-2019-05-29 16:46:53 INFO Visual The plant is fine
-2019-05-29 16:47:33 INFO Visual The plant needs care
-2019-05-29 16:48:20 INFO Visual The plant is fine
-2019-05-29 16:49:05 INFO Visual The plant is fine
-2019-05-29 16:49:44 ERROR Visual ERROR DEMAND
-2019-05-29 16:50:30 INFO Visual The plant is fine
-2019-05-29 16:51:09 INFO Visual The plant is fine
-2019-05-29 16:51:52 INFO Visual The plant is fine
-2019-05-29 16:52:33 INFO Visual The plant is fine
-2019-05-29 16:53:19 INFO Visual The plant needs care
-2019-05-29 16:54:06 INFO Visual The plant needs care
-2019-05-29 16:54:52 INFO Visual The plant is fine
-2019-05-29 16:55:38 INFO Visual The plant needs care
-2019-05-29 16:56:17 INFO Visual The plant needs care
-2019-05-29 16:56:57 INFO Visual The plant is fine
-2019-05-29 16:57:38 INFO Visual The plant is fine
-2019-05-29 16:58:22 INFO Visual The plant is fine
-2019-05-29 16:59:00 INFO Visual The plant is fine
-2019-05-29 16:59:44 INFO Visual The plant is fine
-2019-05-29 17:00:26 INFO Visual The plant is fine
-2019-05-29 17:01:05 INFO Visual The plant is fine
-2019-05-29 17:01:44 INFO Visual The plant is fine
-2019-05-29 17:02:28 INFO Visual The plant is fine
-2019-05-29 17:03:08 INFO Visual The plant is fine
-2019-05-29 17:03:51 INFO Visual The plant is fine
-2019-05-29 17:04:33 INFO Visual The plant is fine
-2019-05-29 17:05:14 INFO Visual The plant needs care
-2019-05-29 17:05:58 INFO Visual The plant is fine
-2019-05-29 17:06:42 INFO Visual The plant needs care
-2019-05-29 17:07:21 INFO Visual The plant is fine
-2019-05-29 17:08:02 INFO Visual The plant is fine
-2019-05-29 17:08:47 INFO Visual The plant needs care
-2019-05-29 17:09:26 ERROR Visual ERROR DEMAND
-2019-05-29 17:10:12 INFO Visual The plant needs care
-2019-05-29 17:10:49 INFO Visual The plant is fine
-2019-05-29 17:11:32 INFO Visual The plant needs care
-2019-05-29 17:12:18 INFO Visual The plant is fine
-2019-05-29 17:12:59 INFO Visual The plant needs care
-2019-05-29 17:13:43 INFO Visual The plant needs care
-2019-05-29 17:14:25 INFO Visual The plant is fine
-2019-05-29 17:15:06 INFO Visual The plant is fine
-2019-05-29 17:15:47 INFO Visual The plant is fine
-2019-05-29 17:16:27 INFO Visual The plant is fine
-2019-05-29 17:17:08 INFO Visual The plant is fine
+2019-05-29 13:10:00 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:01 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:02 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:03 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:04 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:05 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:07 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:08 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:09 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:09 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:11 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:11 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:12 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:12 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:13 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:14 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:15 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:16 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:16 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:16 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:16 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:16 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:16 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:17 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:19 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:19 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:20 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:22 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:23 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:25 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:26 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:28 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:29 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:30 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:30 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:31 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:33 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:35 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:37 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:38 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:38 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:40 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:42 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:42 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:42 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:43 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:43 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:43 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:44 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:44 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:44 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:46 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:48 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:48 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:49 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:49 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:50 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:52 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:54 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:56 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:56 ERROR Visual WRONG DEMAND
+2019-05-29 13:10:58 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:10:58 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:00 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:00 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:00 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:00 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:00 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:01 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:03 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:05 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:06 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:08 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:09 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:11 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:11 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:13 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:14 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:16 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:16 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:17 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:17 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:19 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:19 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:19 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:19 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:20 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:20 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:22 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:23 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:25 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:25 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:27 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:27 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:29 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:30 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:30 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:32 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:32 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:33 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:33 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:34 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:34 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:35 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:36 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:37 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:37 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:38 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:40 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:41 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:41 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:42 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:43 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:44 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:45 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:47 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:47 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:49 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:50 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:52 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:52 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:52 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:52 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:53 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:53 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:54 ERROR Visual WRONG DEMAND
+2019-05-29 13:11:55 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:56 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:11:58 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:00 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:01 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:02 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:02 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:03 WARNING Visual This is not a plant, we need not to analyse its growth
+RROR Visual WRONG DEMAND
+2019-05-29 13:12:23 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:25 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:27 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:28 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:29 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:31 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:33 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:33 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:33 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:35 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:35 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:36 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:36 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:37 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:38 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:40 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:41 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:43 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:45 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:45 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:45 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:46 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:46 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:46 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:47 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:49 ERROR Visual WRONG DEMAND
+2019-05-29 13:12:50 WARNING Visual This is not a plant, we need not to analyse its growth
+2019-05-29 13:12:52 WARNING Visual This is not a plant, we need not to analyse its growth
