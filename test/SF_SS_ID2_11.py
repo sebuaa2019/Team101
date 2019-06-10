@@ -12,15 +12,14 @@ def toLog(time, level, path, info):
 def unitTestClawClose():
     clawOpen()
     clawClose()
-    if jointHander.clawstate == 0: 
+    if jointHandler.clawstate == 0: 
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 2
-       info = "succeed" 
+       info = "succeed" + str(jointHandler.clawstate)
     else:
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 1
-       info = "lowerArmMove test failed"
+       info = "Claw close test failed"
         
 if __name__ == "__main__":
     unitTestClawClose()
-    print("Unit Test Claw Succeed")

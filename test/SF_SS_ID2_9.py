@@ -15,10 +15,10 @@ def testLowerArmMove():
     init(jm, jointHandler)
     target = jointHandler.highest()
     lowerArmMove(target, jointHandler)
-    if jointHander.pos.equal(target): 
+    if jointHandler.pos.equal(target): 
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 2
-       info = "succeed" 
+       info = "succeed " + str(jointHandler.pos)
     else:
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 1
@@ -28,10 +28,10 @@ def testLowerArmMove():
 
     target = jointHandler.lowest()
     lowerArmMove(target, jointHandler)
-    if jointHander.pos.equal(target): 
+    if jointHandler.pos.equal(target): 
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 2
-       info = "succeed" 
+       info = "succeed " + str(jointHandler.pos)
     else:
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 1
@@ -48,10 +48,9 @@ def testLowerArmMove():
     finally:
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 2
-       info = "succeed" 
+       info = "succeed " + str(jointHandler.pos)
         
     print(toLog(time, level , "arm_interface", info))
 
 if __name__ == "__main__":
     testLowerArmMove()
-    print("Test Lower Arm Succeed")
