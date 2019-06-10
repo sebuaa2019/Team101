@@ -1,0 +1,57 @@
+2019-06-11 00:53:53,601 INFO [Platform Server] 启动
+2019-06-11 00:53:58,449 INFO [Platform Server] 收到一个新连接
+2019-06-11 00:53:58,450 INFO [Platform Server] 设备 platform 已连接
+2019-06-11 00:53:58,474 INFO [Platform Server] 收到一个新连接
+2019-06-11 00:53:58,474 INFO [Platform Server] 设备 car1 已连接
+2019-06-11 00:53:58,475 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 1, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185638474}
+2019-06-11 00:54:00,885 INFO [Platform Server] 收到一个新连接
+2019-06-11 00:54:00,885 INFO [Platform Server] 设备 platform 已连接
+2019-06-11 00:54:00,903 INFO [Platform Server] 收到一个新连接
+2019-06-11 00:54:00,903 INFO [Platform Server] 设备 car2 已连接
+2019-06-11 00:54:00,904 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 1, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185640903}
+2019-06-11 00:54:03,480 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:05,485 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 2, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185645484}
+2019-06-11 00:54:05,909 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:07,914 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 2, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185647913}
+2019-06-11 00:54:10,489 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:12,492 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 3, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185652492}
+2019-06-11 00:54:12,917 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:14,923 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 3, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185654917}
+2019-06-11 00:54:17,497 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:19,501 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 4, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185659501}
+2019-06-11 00:54:19,919 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:21,922 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 4, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185661921}
+2019-06-11 00:54:24,504 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:26,509 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 5, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185666508}
+2019-06-11 00:54:26,928 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:28,930 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 5, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185668929}
+2019-06-11 00:54:31,514 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:33,518 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 6, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185673518}
+2019-06-11 00:54:33,933 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:35,938 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 6, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185675937}
+2019-06-11 00:54:38,522 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:40,527 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 7, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185680527}
+2019-06-11 00:54:40,943 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:42,945 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 7, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185682944}
+2019-06-11 00:54:45,532 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:47,537 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 8, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185687536}
+2019-06-11 00:54:47,948 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:49,952 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 8, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185689952}
+2019-06-11 00:54:52,541 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:54,545 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 9, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185694545}
+2019-06-11 00:54:54,956 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:54:56,960 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 9, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185696959}
+2019-06-11 00:54:59,550 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:55:01,553 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 10, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185701553}
+2019-06-11 00:55:01,965 INFO [Platform Server] 收到 car2 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:55:03,969 INFO [Platform Server] 收到 platform 发送给 car2 的消息 {"mid": 10, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185703968}
+2019-06-11 00:55:06,555 INFO [Platform Server] 收到 car1 发送给 platform 的消息 {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01"}
+2019-06-11 00:55:07,454 WARNING [Platform Server] 连接失效:
+2019-06-11 00:55:07,455 WARNING [Platform Server] 连接失效:
+2019-06-11 00:55:07,455 INFO [Platform Server] 设备 car2 已结束连接
+2019-06-11 00:55:07,455 INFO [Platform Server] 设备 platform 已结束连接
+2019-06-11 00:55:08,558 INFO [Platform Server] 收到 platform 发送给 car1 的消息 {"mid": 11, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185708557}
+2019-06-11 00:55:09,278 WARNING [Platform Server] 连接失效:
+2019-06-11 00:55:09,278 WARNING [Platform Server] 连接失效:
+2019-06-11 00:55:09,278 INFO [Platform Server] 设备 car1 已结束连接
+2019-06-11 00:55:09,279 INFO [Platform Server] 设备 platform 已结束连接

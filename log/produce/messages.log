@@ -1,0 +1,80 @@
+2019-06-11 00:53:58,475 INFO [Platform] send message to car1 message: {"mid": 1, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185638474}
+2019-06-11 00:53:58,475 INFO [car1] receive message {'mid': 1, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185638474, 'device_id': 'platform'}
+2019-06-11 00:54:00,903 INFO [Platform] send message to car2 message: {"mid": 1, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185640903}
+2019-06-11 00:54:00,904 INFO [car2] receive message {'mid': 1, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185640903, 'device_id': 'platform'}
+2019-06-11 00:54:03,479 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:03,480 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:05,485 INFO [Platform] send message to car1 message: {"mid": 2, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185645484}
+2019-06-11 00:54:05,485 INFO [car1] receive message {'mid': 2, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185645484, 'device_id': 'platform'}
+2019-06-11 00:54:05,909 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:05,909 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:07,913 INFO [Platform] send message to car2 message: {"mid": 2, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185647913}
+2019-06-11 00:54:07,915 INFO [car2] receive message {'mid': 2, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185647913, 'device_id': 'platform'}
+2019-06-11 00:54:10,489 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:10,489 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:12,492 INFO [Platform] send message to car1 message: {"mid": 3, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185652492}
+2019-06-11 00:54:12,493 INFO [car1] receive message {'mid': 3, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185652492, 'device_id': 'platform'}
+2019-06-11 00:54:12,916 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:12,917 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:14,917 INFO [Platform] send message to car2 message: {"mid": 3, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185654917}
+2019-06-11 00:54:14,924 INFO [car2] receive message {'mid': 3, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185654917, 'device_id': 'platform'}
+2019-06-11 00:54:17,497 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:17,498 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:19,501 INFO [Platform] send message to car1 message: {"mid": 4, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185659501}
+2019-06-11 00:54:19,501 INFO [car1] receive message {'mid': 4, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185659501, 'device_id': 'platform'}
+2019-06-11 00:54:19,919 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:19,919 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:21,922 INFO [Platform] send message to car2 message: {"mid": 4, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185661921}
+2019-06-11 00:54:21,922 INFO [car2] receive message {'mid': 4, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185661921, 'device_id': 'platform'}
+2019-06-11 00:54:24,504 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:24,505 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:26,508 INFO [Platform] send message to car1 message: {"mid": 5, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185666508}
+2019-06-11 00:54:26,509 INFO [car1] receive message {'mid': 5, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185666508, 'device_id': 'platform'}
+2019-06-11 00:54:26,927 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:26,928 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:28,929 INFO [Platform] send message to car2 message: {"mid": 5, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185668929}
+2019-06-11 00:54:28,930 INFO [car2] receive message {'mid': 5, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185668929, 'device_id': 'platform'}
+2019-06-11 00:54:31,514 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:31,514 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:33,518 INFO [Platform] send message to car1 message: {"mid": 6, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185673518}
+2019-06-11 00:54:33,519 INFO [car1] receive message {'mid': 6, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185673518, 'device_id': 'platform'}
+2019-06-11 00:54:33,933 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:33,933 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:35,938 INFO [Platform] send message to car2 message: {"mid": 6, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185675937}
+2019-06-11 00:54:35,938 INFO [car2] receive message {'mid': 6, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185675937, 'device_id': 'platform'}
+2019-06-11 00:54:38,522 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:38,523 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:40,527 INFO [Platform] send message to car1 message: {"mid": 7, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185680527}
+2019-06-11 00:54:40,527 INFO [car1] receive message {'mid': 7, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185680527, 'device_id': 'platform'}
+2019-06-11 00:54:40,942 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:40,943 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:42,945 INFO [Platform] send message to car2 message: {"mid": 7, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185682944}
+2019-06-11 00:54:42,945 INFO [car2] receive message {'mid': 7, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185682944, 'device_id': 'platform'}
+2019-06-11 00:54:45,531 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:45,532 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:47,536 INFO [Platform] send message to car1 message: {"mid": 8, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185687536}
+2019-06-11 00:54:47,537 INFO [car1] receive message {'mid': 8, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185687536, 'device_id': 'platform'}
+2019-06-11 00:54:47,948 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:47,948 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:49,952 INFO [Platform] send message to car2 message: {"mid": 8, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185689952}
+2019-06-11 00:54:49,953 INFO [car2] receive message {'mid': 8, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185689952, 'device_id': 'platform'}
+2019-06-11 00:54:52,541 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:52,541 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:54:54,545 INFO [Platform] send message to car1 message: {"mid": 9, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185694545}
+2019-06-11 00:54:54,545 INFO [car1] receive message {'mid': 9, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185694545, 'device_id': 'platform'}
+2019-06-11 00:54:54,956 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:54,956 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:54:56,960 INFO [Platform] send message to car2 message: {"mid": 9, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185696959}
+2019-06-11 00:54:56,960 INFO [car2] receive message {'mid': 9, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185696959, 'device_id': 'platform'}
+2019-06-11 00:54:59,550 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:54:59,550 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:55:01,553 INFO [Platform] send message to car1 message: {"mid": 10, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185701553}
+2019-06-11 00:55:01,554 INFO [car1] receive message {'mid': 10, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185701553, 'device_id': 'platform'}
+2019-06-11 00:55:01,964 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:55:01,965 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car2"}
+2019-06-11 00:55:03,969 INFO [Platform] send message to car2 message: {"mid": 10, "target": "car2", "type": 1, "message": "\u53bb\u5de1\u68c0\u5427", "time": 10, "timestamp": 1560185703968}
+2019-06-11 00:55:03,969 INFO [car2] receive message {'mid': 10, 'target': 'car2', 'type': 1, 'message': '去巡检吧', 'time': 10, 'timestamp': 1560185703968, 'device_id': 'platform'}
+2019-06-11 00:55:06,553 INFO [platform] send message: {'target': 'platform', 'ok': True, 'message': '我搞定了！'}
+2019-06-11 00:55:06,556 INFO [Platform] receive message {"target": "platform", "ok": true, "message": "\u6211\u641e\u5b9a\u4e86\uff01", "device_id": "car1"}
+2019-06-11 00:55:08,558 INFO [Platform] send message to car1 message: {"mid": 11, "target": "car1", "type": 3, "location": {"x": 1, "y": 1}, "message": "\u53bb\u6d47\u6c34\u5427", "time": 10, "timestamp": 1560185708557}
+2019-06-11 00:55:08,559 INFO [car1] receive message {'mid': 11, 'target': 'car1', 'type': 3, 'location': {'x': 1, 'y': 1}, 'message': '去浇水吧', 'time': 10, 'timestamp': 1560185708557, 'device_id': 'platform'}
