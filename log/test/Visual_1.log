@@ -1,0 +1,8 @@
+2019-05-29 13:02:25 INFO Visual BasePart的id为:7
+2019-05-29 13:02:44 INFO Visual BasePart的config为: server=hjk,client=ljz:
+2019-05-29 13:03:09 INFO Visual Visul_Analyser的id为:7
+2019-05-29 13:03:33 INFO Visual Visul_Analyser的config为:server=hjk,client=ljz:
+2019-05-29 13:04:00 INFO Visual Task_Analysis的id为:7
+2019-05-29 13:04:18 INFO Visual Img_Analysis的id为:7
+2019-05-29 13:04:40 INFO Visual Img_Analysis的photosize为:320 x 360
+2019-05-29 13:04:58 INFO Visual Img_Analysis的modelpath为:D:\Software_Engineering\model.py
