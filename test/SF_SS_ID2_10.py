@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/sr
 
 def toLog(time, level, path, info):
     LEVEL = ["WARNING", "ERROR", "INFO"]
-    print(time+" "+LEVEL[level]+" "+path+" "+info)
+    return str(time+" "+LEVEL[level]+" "+path+" "+info)
 
 def testUpperArmMove():
     jointMsg jm = jointMsg("test")

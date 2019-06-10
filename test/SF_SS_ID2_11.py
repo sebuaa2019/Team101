@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/sr
 
 def toLog(time, level, path, info):
     LEVEL = ["WARNING", "ERROR", "INFO"]
-    print(time+" "+LEVEL[level]+" "+path+" "+info)
+    return str(time+" "+LEVEL[level]+" "+path+" "+info)
 
 def unitTestClawClose():
     clawOpen()
@@ -20,6 +20,8 @@ def unitTestClawClose():
        time = tm.strftime("%Y-%m-%d %H:%M:%S", tm.localtime())
        level = 1
        info = "Claw close test failed"
+    path = "claw"
+    print(toLog(time, level, path, info))
         
 if __name__ == "__main__":
     unitTestClawClose()
