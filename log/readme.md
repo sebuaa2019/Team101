@@ -1,5 +1,5 @@
 # Log 格式规范
-## 生产环境
+## 开发环境(`./develop`)
 ```
 [YYYY-MM-DD-00:00:00] [$LEVEL] [$PATH] INFORMATION.
 LEVEL = {WARNING, ERROR, INFO}
@@ -13,7 +13,7 @@ LEVEL = {WARNING, ERROR, INFO}
 |$LEVEL 	| log信息级别，正常时反馈INFO，异常时反馈WARNING或ERROR|
 |$PATH	| build文件相对于工程文件的路径|
 |INFORMATION	|反馈信息，便于开发人员进行调试 |
-## 测试环境
+## 测试环境(`./test`)
 ```
 [YYYY-MM-DD-00:00:00] [$TESTCASE_NAME] [$LEVEL] [$PATH] INFORMATION.
 LEVEL = {WARNING, ERROR, INFO}
@@ -28,7 +28,7 @@ LEVEL = {WARNING, ERROR, INFO}
 |$LEVEL 	| log信息级别，正常时反馈INFO，异常时反馈WARNING或ERROR|
 |$PATH	| test文件相对于工程文件的路径|
 |INFORMATION	|反馈信息，便于测试人员发现问题并上报开发者 |
-## 运行环境
+## 运行环境(`./produce`)
 ```
 [YYYY-MM-DD-00:00:00] [$LEVEL] [DEVICE_ID] [$STATE] [$EVENT] INFORMATION.
 LEVEL = {WARNING, ERROR, INFO}
