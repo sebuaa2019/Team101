@@ -37,6 +37,6 @@
 | --- | --- | --- |
 | 林家桢 | neo.jia.lin@outlook.com | PM，硬件维修，服务器运维。主要是打杂。 |
 | 韩继开 | jikai_han@sina.com | 深度学习服务软件——图像识别。 |
-| 段逸骁 | jamesdyx@buaa.edu.cn | 专门喊666 (实际上负责了Motor相关的开发和重要的组织安排工作。——ljz)|
+| 段逸骁 | jamesdyx@buaa.edu.cn | 边缘控制系统开发和测试，以及专门喊666 (实际上负责了Motor相关的开发和重要的组织安排工作。——ljz)|
 | 杨帅 | yangshuai460@sina.com | demo摄影师，人工智能小车技术向主播，负责布置测试环境（耕地种草），维修机械臂，以及机械臂控制代码的编写|
 | 黄霁昀 | jy07171009@outlook.com | 边缘控制平台开发，向以上大佬学习 |
