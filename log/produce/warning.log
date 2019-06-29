@@ -1,0 +1,5 @@
+2019-06-29 16:48:15,363 WARNING Car0 (2, 0)-1.48-232.16 MOVING "Low battery! Need charging."
+2019-06-29 16:50:54,603 WARNING Car0 (3, 0)-1.31-239.04 MOVING "Low battery! Need charging."
+2019-06-29 16:53:33,471 WARNING Car0 (4, 0)-1.12-246.47 MOVING "Low battery! Need charging."
+2019-06-29 16:55:59,014 WARNING Car0 (0, 0)-0.96-251.60 MOVING "Low battery! Need charging."
+2019-06-29 16:55:59,016 ERROR Car0 (0, 0)-0.96-251.60 HANG_UP "Battery runs out."
